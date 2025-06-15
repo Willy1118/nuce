@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/21.1/modelsim_ase/win32aloem
+vsort2
+Z0 !s110 1698320932
+!i10b 1
+!s100 EPW8K@U^BMYd[cD<6OIYS2
+INMD<4VK6e?G0<ObU7>X`e1
+Z1 dC:/Users/user/Desktop/hardware_description_language
+Z2 w1698320831
+Z3 8C:\Users\user\Desktop\hardware_description_language\sort4_tb.v
+Z4 FC:\Users\user\Desktop\hardware_description_language\sort4_tb.v
+!i122 39
+L0 1 10
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OV;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1698320931.000000
+!s107 C:\Users\user\Desktop\hardware_description_language\sort4_tb.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\user\Desktop\hardware_description_language\sort4_tb.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vsort4
+R0
+!i10b 1
+!s100 ]EoYSI074[=_C;5h7[lXm1
+IkC[cB0]W@;QC7l_kWQB0E2
+R1
+R2
+R3
+R4
+!i122 39
+L0 12 14
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 C:\Users\user\Desktop\hardware_description_language\sort4_tb.v|
+R8
+!i113 1
+R9
+R10
+vsort4_tb
+R0
+!i10b 1
+!s100 U`89=GNEZF1;^3fRDU=OQ2
+IZN4Z_hgXKcARfPDnmJ4`43
+R1
+R2
+R3
+R4
+!i122 39
+L0 27 19
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+R9
+R10

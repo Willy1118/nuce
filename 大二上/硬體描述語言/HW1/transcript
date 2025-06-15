@@ -1,0 +1,76 @@
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Error opening C:/Users/user/Desktop/hardware_description_language/sort2.v
+# Path name 'C:/Users/user/Desktop/hardware_description_language/sort2.v' doesn't exist.
+# Compile of sort4_tb.v was successful with warnings.
+vsim work.sort4_tb
+# vsim work.sort4_tb 
+# Start time: 19:49:08 on Oct 26,2023
+# Loading work.sort4_tb
+# Loading work.sort4
+# Loading work.sort2
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/sort4_tb/*
+run -all
+# Time:   0 ns, Inputs: x0 =  x  x1 =  x  x2 =  x  x3 =  x, 
+# 
+# 					Outputs: y0 =  x  y1 =  x  y2 =  x  y3 =  x
+# Time:  10 ns, Inputs: x0 = 34  x1 =  9  x2 = 12  x3 = 27, 
+# 
+# 					Outputs: y0 =  x  y1 =  x  y2 =  x  y3 =  x
+# Time:  16 ns, Inputs: x0 = 34  x1 =  9  x2 = 12  x3 = 27, 
+# 
+# 					Outputs: y0 =  X  y1 =  X  y2 =  X  y3 =  X
+# Time:  20 ns, Inputs: x0 = 34  x1 =  9  x2 = 12  x3 = 27, 
+# 
+# 					Outputs: y0 =  X  y1 =  X  y2 =  X  y3 =  X
+# Time:  22 ns, Inputs: x0 = 34  x1 =  9  x2 = 12  x3 = 27, 
+# 
+# 					Outputs: y0 =  9  y1 = 12  y2 = 27  y3 = 34
+# Time:  30 ns, Inputs: x0 = 10  x1 = 56  x2 = 30  x3 = 18, 
+# 
+# 					Outputs: y0 =  9  y1 = 12  y2 = 27  y3 = 34
+# Time:  36 ns, Inputs: x0 = 10  x1 = 56  x2 = 30  x3 = 18, 
+# 
+# 					Outputs: y0 = 56  y1 = 30  y2 = 18  y3 = 10
+# Time:  40 ns, Inputs: x0 = 10  x1 = 56  x2 = 30  x3 = 18, 
+# 
+# 					Outputs: y0 = 10  y1 = 18  y2 = 30  y3 = 56
+# Time:  50 ns, Inputs: x0 = 67  x1 = 46  x2 = 55  x3 = 20, 
+# 
+# 					Outputs: y0 = 10  y1 = 18  y2 = 30  y3 = 56
+# Time:  56 ns, Inputs: x0 = 67  x1 = 46  x2 = 55  x3 = 20, 
+# 
+# 					Outputs: y0 = 67  y1 = 20  y2 = 55  y3 = 46
+# Time:  58 ns, Inputs: x0 = 67  x1 = 46  x2 = 55  x3 = 20, 
+# 
+# 					Outputs: y0 = 20  y1 = 55  y2 = 67  y3 = 46
+# Time:  60 ns, Inputs: x0 = 67  x1 = 46  x2 = 55  x3 = 20, 
+# 
+# 					Outputs: y0 = 20  y1 = 46  y2 = 55  y3 = 67
+# ** Note: $finish    : C:/Users/user/Desktop/hardware_description_language/sort4_tb.v(42)
+#    Time: 70 ps  Iteration: 0  Instance: /sort4_tb
+# 1
+# Break in Module sort4_tb at C:/Users/user/Desktop/hardware_description_language/sort4_tb.v line 42
+# ** Error: 嘏請�
+# 
+#        Unable to replace existing ini file (C:/Users/user/Desktop/hardware_description_language/hw1.mpf).  File can not be renamed.
+# ** Error: 嘏請�
+# 
+#        Unable to replace existing ini file (C:/Users/user/Desktop/hardware_description_language/hw1.mpf).  File can not be renamed.
+# End time: 21:34:50 on Oct 26,2023, Elapsed time: 1:45:42
+# Errors: 2, Warnings: 5
