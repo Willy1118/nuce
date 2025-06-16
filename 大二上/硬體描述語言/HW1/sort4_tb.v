@@ -1,5 +1,5 @@
 module sort2(A, B, minAB, maxAB);
-	input [7:0] A, B;
+	input  [7:0] A, B;
 	output [7:0] minAB, maxAB;
 	wire s;
 
@@ -11,9 +11,9 @@ endmodule
 
 module sort4(x0, x1, x2, x3, y0, y1, y2, y3);
 	
-	input [7:0] x0, x1, x2, x3;
+	input  [7:0] x0, x1, x2, x3;
 	output [7:0] y0, y1, y2, y3;
-	wire [7:0] s1, s2, s3, s4, s5, s6, s7, s8;
+	wire   [7:0] s1, s2, s3, s4, s5, s6, s7, s8;
 	
 	sort2 t1 (x0, x1, s1, s2);
 	sort2 t2 (x2, x3, s3, s4);
@@ -26,7 +26,7 @@ endmodule
 
 module sort4_tb;
 	
-	reg [7:0] x0, x1, x2, x3;
+	reg  [7:0] x0, x1, x2, x3;
 	wire [7:0] y0, y1, y2, y3;
 
 	sort4 m0 (x0, x1, x2, x3, y0, y1, y2, y3);

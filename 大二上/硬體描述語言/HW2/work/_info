@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/21.1/modelsim_ase/win32aloem
+valu
+Z0 !s110 1700579404
+!i10b 1
+!s100 gPe_;1@L9n@AS^dPSVzmL0
+IE^AKZnm8gBo[HOVlgJ5:;3
+Z1 dC:/Users/user/Desktop/HW2
+w1700579359
+8C:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu.v
+FC:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu.v
+!i122 0
+L0 1 31
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2021.1;73
+r1
+!s85 0
+31
+Z4 !s108 1700579404.000000
+!s107 C:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu_tb
+R0
+!i10b 1
+!s100 0_J7iV7gA;ezm^hge`jRk3
+IGETF[fcIb0>1bFCOFDK]n1
+R1
+w1700579362
+8C:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu_tb.v
+FC:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu_tb.v
+!i122 1
+L0 1 51
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu_tb.v|
+!i113 1
+R5
+R6

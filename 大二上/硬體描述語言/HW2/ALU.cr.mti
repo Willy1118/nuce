@@ -1,0 +1,16 @@
+C:/Users/user/Desktop/??????/???/hardware_description_language/HW2/alu.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/??????/???/hardware_description_language/HW2/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/user/Desktop/??????/???/hardware_description_language/HW2/alu_tb.v {2 {vlog -work work -stats=none C:/Users/user/Desktop/??????/???/hardware_description_language/HW2/alu_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module alu_tb
+** Warning: C:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu_tb.v(10): (vlog-2643) Unterminated string literal continues onto next line.
+
+Top level modules:
+	alu_tb
+
+} {} {}}

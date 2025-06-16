@@ -1,0 +1,100 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/21.1/modelsim_ase/win32aloem
+vR
+Z0 !s110 1703138850
+!i10b 1
+!s100 _zEc=RC@D3R]7=@ZnP`Ag0
+IFbd`?<IT0Ul]f4L3@W;nC2
+Z1 dC:/Users/user/Desktop/S1154007_03
+Z2 w1703138351
+Z3 8C:/Users/user/Desktop/S1154007_03/sort4_pipe.v
+Z4 FC:/Users/user/Desktop/S1154007_03/sort4_pipe.v
+!i122 30
+L0 1 16
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OV;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1703138850.000000
+Z8 !s107 C:/Users/user/Desktop/S1154007_03/sort4_pipe.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/S1154007_03/sort4_pipe.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@r
+vsort2
+R0
+!i10b 1
+!s100 O2[A5KKB];57J_VDIdAFU0
+Iz32D5<NInkYa@eJh9fcU;3
+R1
+R2
+R3
+R4
+!i122 30
+L0 18 9
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsort4_pipe
+R0
+!i10b 1
+!s100 hU1fY^kV22Bc@lC5EWhB>0
+I8??JfUiOAe?P=S7^EV_b?2
+R1
+R2
+R3
+R4
+!i122 30
+L0 28 43
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsort4_pipe_tb
+R0
+!i10b 1
+!s100 B:2Yje`]8_G6H0ZYSg2TG3
+I1RTok[DL1VCXC]K9RSUn63
+R1
+w1703138820
+8C:/Users/user/Desktop/S1154007_03/sort4_pipe_tb.v
+FC:/Users/user/Desktop/S1154007_03/sort4_pipe_tb.v
+!i122 31
+L0 1 93
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/user/Desktop/S1154007_03/sort4_pipe_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/S1154007_03/sort4_pipe_tb.v|
+!i113 1
+R10
+R11

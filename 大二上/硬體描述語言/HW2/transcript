@@ -1,0 +1,137 @@
+# Compile of alu.v failed with 1 errors.
+# Compile of alu_tb.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of alu.v failed with 1 errors.
+# Compile of alu_tb.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of alu.v failed with 1 errors.
+# Compile of alu_tb.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim work.alu_tb
+# vsim work.alu_tb 
+# Start time: 23:10:47 on Nov 21,2023
+# Loading work.alu_tb
+# Loading work.alu
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/alu_tb/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/user/Desktop/HW2/wave.do
+do C:/Users/user/Desktop/HW2/wave.do
+run -all
+# Time:   0 ns,  Inputs: A = xxxxxx, B = xxxxxx, op = 000x
+# 
+#         Outputs: Y = xxxxxx
+# Time:  10 ns,  Inputs: A = 001100, B = 000101, op = 0000
+# 
+#         Outputs: Y = 001100
+# Time:  20 ns,  Inputs: A = 001100, B = 000101, op = 0001
+# 
+#         Outputs: Y = 000101
+# Time:  30 ns,  Inputs: A = 001100, B = 000101, op = 0002
+# 
+#         Outputs: Y = 001101
+# Time:  40 ns,  Inputs: A = 001100, B = 000101, op = 0003
+# 
+#         Outputs: Y = 000110
+# Time:  50 ns,  Inputs: A = 001100, B = 000101, op = 0004
+# 
+#         Outputs: Y = 001011
+# Time:  60 ns,  Inputs: A = 001100, B = 000101, op = 0005
+# 
+#         Outputs: Y = 000100
+# Time:  70 ns,  Inputs: A = 001100, B = 000101, op = 0006
+# 
+#         Outputs: Y = 010001
+# Time:  80 ns,  Inputs: A = 001100, B = 000101, op = 0007
+# 
+#         Outputs: Y = 000111
+# Time:  90 ns,  Inputs: A = 001100, B = 000101, op = 0008
+# 
+#         Outputs: Y = 000100
+# Time: 100 ns,  Inputs: A = 001100, B = 000101, op = 0009
+# 
+#         Outputs: Y = 001101
+# Time: 110 ns,  Inputs: A = 001100, B = 000101, op = 000a
+# 
+#         Outputs: Y = 001001
+# Time: 120 ns,  Inputs: A = 001100, B = 000101, op = 000b
+# 
+#         Outputs: Y = 110011
+# Time: 130 ns,  Inputs: A = 001100, B = 000101, op = 000c
+# 
+#         Outputs: Y = 011000
+# Time: 140 ns,  Inputs: A = 001100, B = 000101, op = 000d
+# 
+#         Outputs: Y = 000110
+# Time: 150 ns,  Inputs: A = 001100, B = 000101, op = 000e
+# 
+#         Outputs: Y = 001100
+# Time: 160 ns,  Inputs: A = 001100, B = 000101, op = 000f
+# 
+#         Outputs: Y = 000101
+# Time: 170 ns,  Inputs: A = 000111, B = 001011, op = 0000
+# 
+#         Outputs: Y = 000111
+# Time: 180 ns,  Inputs: A = 000111, B = 001011, op = 0001
+# 
+#         Outputs: Y = 001011
+# Time: 190 ns,  Inputs: A = 000111, B = 001011, op = 0002
+# 
+#         Outputs: Y = 001000
+# Time: 200 ns,  Inputs: A = 000111, B = 001011, op = 0003
+# 
+#         Outputs: Y = 001100
+# Time: 210 ns,  Inputs: A = 000111, B = 001011, op = 0004
+# 
+#         Outputs: Y = 000110
+# Time: 220 ns,  Inputs: A = 000111, B = 001011, op = 0005
+# 
+#         Outputs: Y = 001010
+# Time: 230 ns,  Inputs: A = 000111, B = 001011, op = 0006
+# 
+#         Outputs: Y = 010010
+# Time: 240 ns,  Inputs: A = 000111, B = 001011, op = 0007
+# 
+#         Outputs: Y = 111100
+# Time: 250 ns,  Inputs: A = 000111, B = 001011, op = 0008
+# 
+#         Outputs: Y = 000011
+# Time: 260 ns,  Inputs: A = 000111, B = 001011, op = 0009
+# 
+#         Outputs: Y = 001111
+# Time: 270 ns,  Inputs: A = 000111, B = 001011, op = 000a
+# 
+#         Outputs: Y = 001100
+# Time: 280 ns,  Inputs: A = 000111, B = 001011, op = 000b
+# 
+#         Outputs: Y = 111000
+# Time: 290 ns,  Inputs: A = 000111, B = 001011, op = 000c
+# 
+#         Outputs: Y = 001110
+# Time: 300 ns,  Inputs: A = 000111, B = 001011, op = 000d
+# 
+#         Outputs: Y = 000011
+# Time: 310 ns,  Inputs: A = 000111, B = 001011, op = 000e
+# 
+#         Outputs: Y = 001011
+# Time: 320 ns,  Inputs: A = 000111, B = 001011, op = 000f
+# 
+#         Outputs: Y = 000111
+# ** Note: $finish    : C:/Users/user/Desktop/彰師大ㄉ四年/大二上/hardware_description_language/HW2/alu_tb.v(48)
+#    Time: 330 ps  Iteration: 0  Instance: /alu_tb
+# 1
+# Break in Module alu_tb at C:/Users/user/Desktop/p+'	�t/'�
+/hardware_description_language/HW2/alu_tb.v line 48
+# ** Error: 嘏請�
+# 
+#        Unable to replace existing ini file (C:/Users/user/Desktop/HW2/ALU.mpf).  File can not be renamed.
+# ** Error: 嘏請�
+# 0
+#        Unable to replace existing ini file (C:/Users/user/Desktop/HW2/ALU.mpf).  File can not be renamed.
+# ** Error: 嘏請�
+# 
+#        Unable to replace existing ini file (C:/Users/user/Desktop/HW2/ALU.mpf).  File can not be renamed.
+# End time: 00:10:29 on Nov 22,2023, Elapsed time: 0:59:42
+# Errors: 3, Warnings: 20
