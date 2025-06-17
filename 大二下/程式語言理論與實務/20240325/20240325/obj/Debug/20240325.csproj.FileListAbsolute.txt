@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\bin\Debug\20240325.exe.config
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\bin\Debug\20240325.exe
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\bin\Debug\20240325.pdb
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\obj\Debug\20240325.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\obj\Debug\_20240325.Form1.resources
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\obj\Debug\_20240325.Properties.Resources.resources
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\obj\Debug\20240325.csproj.GenerateResource.cache
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\obj\Debug\20240325.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\obj\Debug\20240325.exe
+C:\Users\user\Desktop\彰師大ㄉ四年\大二下\程式語言理論與實務\20240325\20240325\obj\Debug\20240325.pdb
