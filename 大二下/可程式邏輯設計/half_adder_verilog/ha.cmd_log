@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/ncue_logic_design/half_adder_verilog/ha.v -lang verilog -prj half_adder_verilog -o ha.spl -module ha -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500 ha.spl C:/ncue_logic_design/half_adder_verilog/ha.sym 

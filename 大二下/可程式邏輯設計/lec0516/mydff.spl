@@ -1,0 +1,9 @@
+[Inputs]
+d
+clk
+[Outputs]
+q
+[BiDir]
+[ATTRIBUTES]
+VeriModel mydff
+

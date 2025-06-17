@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "C:/ncue_logic_design/myadd_verilog/testadd8_isim_beh.exe" -prj "C:/ncue_logic_design/myadd_verilog/testadd8_beh.prj" "work.testadd8" "work.glbl" 

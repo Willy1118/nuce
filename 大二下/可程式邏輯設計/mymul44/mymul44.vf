@@ -1,0 +1,168 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : mymul44.vf
+// /___/   /\     Timestamp : 03/21/2024 09:53:55
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/mymul44/mymul44.vf -w C:/ncue_logic_design/mymul44/mymul44.sch
+//Design Name: mymul44
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module mymul44(a, 
+               b, 
+               p);
+
+    input [3:0] a;
+    input [3:0] b;
+   output [7:0] p;
+   
+   wire a0b1;
+   wire a0b2;
+   wire a0b3;
+   wire a1b0;
+   wire a1b1;
+   wire a1b2;
+   wire a1b3;
+   wire a2b0;
+   wire a2b1;
+   wire a2b2;
+   wire a2b3;
+   wire a3b0;
+   wire a3b1;
+   wire a3b2;
+   wire a3b3;
+   wire c1;
+   wire c21;
+   wire c22;
+   wire c31;
+   wire c32;
+   wire c33;
+   wire c41;
+   wire c42;
+   wire c43;
+   wire c51;
+   wire c52;
+   wire XLXN_234;
+   wire XLXN_239;
+   wire XLXN_242;
+   wire XLXN_251;
+   wire XLXN_255;
+   wire XLXN_263;
+   
+   AND2  XLXI_29 (.I0(b[0]), 
+                 .I1(a[0]), 
+                 .O(p[0]));
+   AND2  XLXI_30 (.I0(b[1]), 
+                 .I1(a[0]), 
+                 .O(a0b1));
+   AND2  XLXI_31 (.I0(b[2]), 
+                 .I1(a[0]), 
+                 .O(a0b2));
+   AND2  XLXI_32 (.I0(b[3]), 
+                 .I1(a[0]), 
+                 .O(a0b3));
+   AND2  XLXI_33 (.I0(b[0]), 
+                 .I1(a[1]), 
+                 .O(a1b0));
+   AND2  XLXI_34 (.I0(b[1]), 
+                 .I1(a[1]), 
+                 .O(a1b1));
+   AND2  XLXI_35 (.I0(b[2]), 
+                 .I1(a[1]), 
+                 .O(a1b2));
+   AND2  XLXI_36 (.I0(b[3]), 
+                 .I1(a[1]), 
+                 .O(a1b3));
+   AND2  XLXI_37 (.I0(b[0]), 
+                 .I1(a[2]), 
+                 .O(a2b0));
+   AND2  XLXI_38 (.I0(b[1]), 
+                 .I1(a[2]), 
+                 .O(a2b1));
+   AND2  XLXI_39 (.I0(b[2]), 
+                 .I1(a[2]), 
+                 .O(a2b2));
+   AND2  XLXI_40 (.I0(b[3]), 
+                 .I1(a[2]), 
+                 .O(a2b3));
+   AND2  XLXI_41 (.I0(b[0]), 
+                 .I1(a[3]), 
+                 .O(a3b0));
+   AND2  XLXI_42 (.I0(b[1]), 
+                 .I1(a[3]), 
+                 .O(a3b1));
+   AND2  XLXI_43 (.I0(b[2]), 
+                 .I1(a[3]), 
+                 .O(a3b2));
+   AND2  XLXI_44 (.I0(b[3]), 
+                 .I1(a[3]), 
+                 .O(a3b3));
+   ha  XLXI_96 (.a(a0b1), 
+               .b(a1b0), 
+               .carry(c1), 
+               .sum(p[1]));
+   fa  XLXI_97 (.a(a2b0), 
+               .b(a1b1), 
+               .cin(c1), 
+               .cout(c21), 
+               .sum(XLXN_234));
+   ha  XLXI_98 (.a(a0b2), 
+               .b(XLXN_234), 
+               .carry(c22), 
+               .sum(p[2]));
+   fa  XLXI_99 (.a(a3b0), 
+               .b(a2b1), 
+               .cin(c21), 
+               .cout(c31), 
+               .sum(XLXN_239));
+   fa  XLXI_100 (.a(a1b2), 
+                .b(XLXN_239), 
+                .cin(a0b3), 
+                .cout(c32), 
+                .sum(XLXN_242));
+   ha  XLXI_101 (.a(XLXN_242), 
+                .b(c22), 
+                .carry(c33), 
+                .sum(p[3]));
+   fa  XLXI_102 (.a(a3b1), 
+                .b(a2b2), 
+                .cin(c31), 
+                .cout(c41), 
+                .sum(XLXN_251));
+   fa  XLXI_103 (.a(a1b3), 
+                .b(XLXN_251), 
+                .cin(c32), 
+                .cout(c42), 
+                .sum(XLXN_255));
+   ha  XLXI_104 (.a(XLXN_255), 
+                .b(c33), 
+                .carry(c43), 
+                .sum(p[4]));
+   fa  XLXI_105 (.a(a3b2), 
+                .b(a2b3), 
+                .cin(c41), 
+                .cout(c51), 
+                .sum(XLXN_263));
+   fa  XLXI_106 (.a(c42), 
+                .b(XLXN_263), 
+                .cin(c43), 
+                .cout(c52), 
+                .sum(p[5]));
+   fa  XLXI_107 (.a(c52), 
+                .b(c51), 
+                .cin(a3b3), 
+                .cout(p[7]), 
+                .sum(p[6]));
+endmodule

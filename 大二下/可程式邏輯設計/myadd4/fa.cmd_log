@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family xc9500 -refsym fa C:/ncue_logic_design/full_adder/fa.sch C:/ncue_logic_design/myadd4/fa.sym 

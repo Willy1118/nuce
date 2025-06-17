@@ -1,0 +1,29 @@
+Command line:
+   myadd8_myadd8_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49358
+
+Thu Mar 14 11:10:06 2024
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5166.25 Meg
+
+ Total Signals          : 285
+ Total Nets             : 70
+ Total Signal Drivers   : 48
+ Total Blocks           : 69
+ Total Primitive Blocks : 41
+ Total Processes        : 50
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 167
+Total Line Count : 25
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 5008.97 Meg
+
+Thu Mar 14 11:11:44 2024
+

@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : myadd4.vf
+// /___/   /\     Timestamp : 03/14/2024 10:56:42
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/myadd4/myadd4.vf -w C:/ncue_logic_design/myadd4/myadd4.sch
+//Design Name: myadd4
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module myadd4(cin, 
+              x, 
+              y, 
+              cout, 
+              s);
+
+    input cin;
+    input [3:0] x;
+    input [3:0] y;
+   output cout;
+   output [3:0] s;
+   
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   
+   fa  XLXI_1 (.a(x[0]), 
+              .b(y[0]), 
+              .cin(cin), 
+              .cout(XLXN_3), 
+              .sum(s[0]));
+   fa  XLXI_2 (.a(x[1]), 
+              .b(y[1]), 
+              .cin(XLXN_3), 
+              .cout(XLXN_4), 
+              .sum(s[1]));
+   fa  XLXI_3 (.a(x[2]), 
+              .b(y[2]), 
+              .cin(XLXN_4), 
+              .cout(XLXN_5), 
+              .sum(s[2]));
+   fa  XLXI_4 (.a(x[3]), 
+              .b(y[3]), 
+              .cin(XLXN_5), 
+              .cout(cout), 
+              .sum(s[3]));
+endmodule

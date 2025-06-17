@@ -1,0 +1,6 @@
+verilog work "service.v"
+verilog work "number.v"
+verilog work "call_number.v"
+verilog work "response_system_top.v"
+verilog work "test11.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

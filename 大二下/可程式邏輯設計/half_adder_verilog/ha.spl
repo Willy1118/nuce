@@ -1,0 +1,10 @@
+[Inputs]
+a
+b
+[Outputs]
+sum
+carry
+[BiDir]
+[ATTRIBUTES]
+VeriModel ha
+

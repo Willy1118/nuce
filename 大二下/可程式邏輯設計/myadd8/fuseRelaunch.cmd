@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "C:/ncue_logic_design/myadd8/myadd8_myadd8_sch_tb_isim_beh.exe" -prj "C:/ncue_logic_design/myadd8/myadd8_myadd8_sch_tb_beh.prj" "work.myadd8_myadd8_sch_tb" "work.glbl" 

@@ -1,0 +1,29 @@
+Command line:
+   project2_Moore_project2_Moore_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56000
+
+Thu Apr 25 09:03:58 2024
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5165.71 Meg
+
+ Total Signals          : 157
+ Total Nets             : 58
+ Total Signal Drivers   : 54
+ Total Blocks           : 33
+ Total Primitive Blocks : 27
+ Total Processes        : 73
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 152
+Total Line Count : 86
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4693.85 Meg
+
+Thu Apr 25 09:33:09 2024
+

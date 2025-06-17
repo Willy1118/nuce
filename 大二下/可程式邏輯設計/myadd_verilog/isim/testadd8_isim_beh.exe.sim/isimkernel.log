@@ -1,0 +1,29 @@
+Command line:
+   testadd8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60208
+
+Thu May 02 10:59:31 2024
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 5166.32 Meg
+
+ Total Signals          : 20
+ Total Nets             : 39
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 168
+Total Line Count : 55
+
+ Total Simulation Time: 0 sec
+
+ Current Memory Usage: 5009.03 Meg
+
+Thu May 02 11:00:57 2024
+

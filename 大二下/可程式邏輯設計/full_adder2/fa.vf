@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : fa.vf
+// /___/   /\     Timestamp : 03/06/2024 22:29:38
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/full_adder2/fa.vf -w C:/ncue_logic_design/full_adder2/fa.sch
+//Design Name: fa
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module fa(a, 
+          b, 
+          cin, 
+          cout, 
+          sum);
+
+    input a;
+    input b;
+    input cin;
+   output cout;
+   output sum;
+   
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   
+   XOR3  XLXI_1 (.I0(cin), 
+                .I1(b), 
+                .I2(a), 
+                .O(sum));
+   AND2  XLXI_2 (.I0(b), 
+                .I1(a), 
+                .O(XLXN_12));
+   AND2  XLXI_3 (.I0(cin), 
+                .I1(a), 
+                .O(XLXN_13));
+   AND2  XLXI_4 (.I0(cin), 
+                .I1(b), 
+                .O(XLXN_14));
+   OR3  XLXI_5 (.I0(XLXN_14), 
+               .I1(XLXN_13), 
+               .I2(XLXN_12), 
+               .O(cout));
+endmodule

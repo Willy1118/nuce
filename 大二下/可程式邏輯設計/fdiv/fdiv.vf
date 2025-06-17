@@ -1,0 +1,231 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : fdiv.vf
+// /___/   /\     Timestamp : 03/21/2024 10:57:54
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/fdiv/fdiv.vf -w C:/ncue_logic_design/fdiv/fdiv.sch
+//Design Name: fdiv
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FD_MXILINX_fdiv(C, 
+                       D, 
+                       Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input D;
+   output Q;
+   
+   wire XLXN_4;
+   
+   GND  I_36_43 (.G(XLXN_4));
+   FDCP  U0 (.C(C), 
+            .CLR(XLXN_4), 
+            .D(D), 
+            .PRE(XLXN_4), 
+            .Q(Q));
+endmodule
+`timescale 1ns / 1ps
+
+module FDRE_MXILINX_fdiv(C, 
+                         CE, 
+                         D, 
+                         R, 
+                         Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input CE;
+    input D;
+    input R;
+   output Q;
+   
+   wire A0;
+   wire A1;
+   wire QD;
+   wire Q_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   AND3B1  I_36_32 (.I0(R), 
+                   .I1(D), 
+                   .I2(CE), 
+                   .O(A1));
+   AND3B2  I_36_33 (.I0(CE), 
+                   .I1(R), 
+                   .I2(Q_DUMMY), 
+                   .O(A0));
+   OR2  I_36_34 (.I0(A1), 
+                .I1(A0), 
+                .O(QD));
+   (* HU_SET = "I_36_42_0" *) (* RLOC = "R0C0" *) 
+   FD_MXILINX_fdiv  I_36_42 (.C(C), 
+                            .D(QD), 
+                            .Q(Q_DUMMY));
+endmodule
+`timescale 1ns / 1ps
+
+module FTRSE_MXILINX_fdiv(C, 
+                          CE, 
+                          R, 
+                          S, 
+                          T, 
+                          Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input CE;
+    input R;
+    input S;
+    input T;
+   output Q;
+   
+   wire CE_S;
+   wire D_S;
+   wire TQ;
+   wire Q_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   XOR2  I_36_32 (.I0(T), 
+                 .I1(Q_DUMMY), 
+                 .O(TQ));
+   (* HU_SET = "I_36_35_1" *) 
+   FDRE_MXILINX_fdiv  I_36_35 (.C(C), 
+                              .CE(CE_S), 
+                              .D(D_S), 
+                              .R(R), 
+                              .Q(Q_DUMMY));
+   OR2  I_36_73 (.I0(S), 
+                .I1(TQ), 
+                .O(D_S));
+   OR2  I_36_77 (.I0(CE), 
+                .I1(S), 
+                .O(CE_S));
+endmodule
+`timescale 1ns / 1ps
+
+module CB4RE_MXILINX_fdiv(C, 
+                          CE, 
+                          R, 
+                          CEO, 
+                          Q0, 
+                          Q1, 
+                          Q2, 
+                          Q3, 
+                          TC);
+
+    input C;
+    input CE;
+    input R;
+   output CEO;
+   output Q0;
+   output Q1;
+   output Q2;
+   output Q3;
+   output TC;
+   
+   wire T2;
+   wire T3;
+   wire XLXN_1;
+   wire XLXN_2;
+   wire Q0_DUMMY;
+   wire Q1_DUMMY;
+   wire Q2_DUMMY;
+   wire Q3_DUMMY;
+   wire TC_DUMMY;
+   
+   assign Q0 = Q0_DUMMY;
+   assign Q1 = Q1_DUMMY;
+   assign Q2 = Q2_DUMMY;
+   assign Q3 = Q3_DUMMY;
+   assign TC = TC_DUMMY;
+   AND4  I_36_31 (.I0(Q3_DUMMY), 
+                 .I1(Q2_DUMMY), 
+                 .I2(Q1_DUMMY), 
+                 .I3(Q0_DUMMY), 
+                 .O(TC_DUMMY));
+   AND3  I_36_32 (.I0(Q2_DUMMY), 
+                 .I1(Q1_DUMMY), 
+                 .I2(Q0_DUMMY), 
+                 .O(T3));
+   AND2  I_36_33 (.I0(Q1_DUMMY), 
+                 .I1(Q0_DUMMY), 
+                 .O(T2));
+   VCC  I_36_58 (.P(XLXN_1));
+   GND  I_36_64 (.G(XLXN_2));
+   AND2  I_36_69 (.I0(CE), 
+                 .I1(TC_DUMMY), 
+                 .O(CEO));
+   (* HU_SET = "U0_2" *) 
+   FTRSE_MXILINX_fdiv #( .INIT(1'b0) ) U0 (.C(C), 
+                          .CE(CE), 
+                          .R(R), 
+                          .S(XLXN_2), 
+                          .T(XLXN_1), 
+                          .Q(Q0_DUMMY));
+   (* HU_SET = "U1_3" *) 
+   FTRSE_MXILINX_fdiv #( .INIT(1'b0) ) U1 (.C(C), 
+                          .CE(CE), 
+                          .R(R), 
+                          .S(XLXN_2), 
+                          .T(Q0_DUMMY), 
+                          .Q(Q1_DUMMY));
+   (* HU_SET = "U2_4" *) 
+   FTRSE_MXILINX_fdiv #( .INIT(1'b0) ) U2 (.C(C), 
+                          .CE(CE), 
+                          .R(R), 
+                          .S(XLXN_2), 
+                          .T(T2), 
+                          .Q(Q2_DUMMY));
+   (* HU_SET = "U3_5" *) 
+   FTRSE_MXILINX_fdiv #( .INIT(1'b0) ) U3 (.C(C), 
+                          .CE(CE), 
+                          .R(R), 
+                          .S(XLXN_2), 
+                          .T(T3), 
+                          .Q(Q3_DUMMY));
+endmodule
+`timescale 1ns / 1ps
+
+module fdiv(iclk, 
+            oclk);
+
+    input iclk;
+   output oclk;
+   
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_6;
+   wire oclk_DUMMY;
+   
+   assign oclk = oclk_DUMMY;
+   (* HU_SET = "XLXI_1_6" *) 
+   CB4RE_MXILINX_fdiv  XLXI_1 (.C(iclk), 
+                              .CE(XLXN_6), 
+                              .R(oclk_DUMMY), 
+                              .CEO(), 
+                              .Q0(XLXN_3), 
+                              .Q1(XLXN_4), 
+                              .Q2(), 
+                              .Q3(), 
+                              .TC());
+   AND2B1  XLXI_2 (.I0(XLXN_3), 
+                  .I1(XLXN_4), 
+                  .O(oclk_DUMMY));
+   VCC  XLXI_3 (.P(XLXN_6));
+endmodule

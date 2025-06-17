@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,xc9500,-verilog,C:/ncue_logic_design/mymul44/mymul44.vf,-w,C:/ncue_logic_design/mymul44/mymul44.sch
+sch2hdl,-intstyle,ise,-family,xc9500,-verilog,C:/ncue_logic_design/mymul44/fa.vf,-w,C:/ncue_logic_design/full_adder/fa.sch
+sch2hdl,-intstyle,ise,-family,xc9500,-verilog,C:/ncue_logic_design/mymul44/ha.vf,-w,C:/ncue_logic_design/half_adder/ha.sch

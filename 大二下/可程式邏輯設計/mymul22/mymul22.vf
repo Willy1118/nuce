@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : mymul22.vf
+// /___/   /\     Timestamp : 03/14/2024 11:32:49
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/mymul22/mymul22.vf -w C:/ncue_logic_design/mymul22/mymul22.sch
+//Design Name: mymul22
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module mymul22(a, 
+               b, 
+               p);
+
+    input [1:0] a;
+    input [1:0] b;
+   output [3:0] p;
+   
+   wire a0b1;
+   wire b0a1;
+   wire XLXN_13;
+   wire XLXN_14;
+   
+   AND2  XLXI_1 (.I0(b[0]), 
+                .I1(a[0]), 
+                .O(p[0]));
+   AND2  XLXI_2 (.I0(b[1]), 
+                .I1(a[0]), 
+                .O(a0b1));
+   AND2  XLXI_3 (.I0(b[0]), 
+                .I1(a[1]), 
+                .O(b0a1));
+   AND2  XLXI_4 (.I0(a[1]), 
+                .I1(b[1]), 
+                .O(XLXN_13));
+   ha  XLXI_5 (.a(a0b1), 
+              .b(b0a1), 
+              .carry(XLXN_14), 
+              .sum(p[1]));
+   ha  XLXI_6 (.a(XLXN_14), 
+              .b(XLXN_13), 
+              .carry(p[3]), 
+              .sum(p[2]));
+endmodule

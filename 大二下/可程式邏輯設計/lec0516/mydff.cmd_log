@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/ncue_logic_design/lec0516/mydff.v -lang verilog -prj lec0516 -o mydff.spl -module mydff -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500 mydff.spl C:/ncue_logic_design/lec0516/mydff.sym 

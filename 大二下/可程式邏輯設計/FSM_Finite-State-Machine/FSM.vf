@@ -1,0 +1,70 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : FSM.vf
+// /___/   /\     Timestamp : 04/11/2024 10:28:23
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/FSM_Finite-State-Machine/FSM.vf -w C:/ncue_logic_design/FSM_Finite-State-Machine/FSM.sch
+//Design Name: FSM
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FD_MXILINX_FSM(C, 
+                      D, 
+                      Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input D;
+   output Q;
+   
+   wire XLXN_4;
+   
+   GND  I_36_43 (.G(XLXN_4));
+   FDCP  U0 (.C(C), 
+            .CLR(XLXN_4), 
+            .D(D), 
+            .PRE(XLXN_4), 
+            .Q(Q));
+endmodule
+`timescale 1ns / 1ps
+
+module FSM(clk, 
+           x, 
+           Z);
+
+    input clk;
+    input x;
+   output Z;
+   
+   wire A;
+   wire B;
+   wire XLXN_8;
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   FD_MXILINX_FSM #( .INIT(1'b0) ) XLXI_1 (.C(clk), 
+                          .D(XLXN_8), 
+                          .Q(A));
+   (* HU_SET = "XLXI_2_1" *) 
+   FD_MXILINX_FSM #( .INIT(1'b0) ) XLXI_2 (.C(clk), 
+                          .D(x), 
+                          .Q(B));
+   AND2B1  XLXI_4 (.I0(x), 
+                  .I1(B), 
+                  .O(XLXN_8));
+   AND2  XLXI_5 (.I0(x), 
+                .I1(A), 
+                .O(Z));
+endmodule

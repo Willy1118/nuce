@@ -1,0 +1,80 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : special_counter.vf
+// /___/   /\     Timestamp : 04/12/2024 22:12:09
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/specail_counter_03546/special_counter.vf -w C:/ncue_logic_design/specail_counter_03546/special_counter.sch
+//Design Name: special_counter
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FD_MXILINX_special_counter(C, 
+                                  D, 
+                                  Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input D;
+   output Q;
+   
+   wire XLXN_4;
+   
+   GND  I_36_43 (.G(XLXN_4));
+   FDCP  U0 (.C(C), 
+            .CLR(XLXN_4), 
+            .D(D), 
+            .PRE(XLXN_4), 
+            .Q(Q));
+endmodule
+`timescale 1ns / 1ps
+
+module special_counter(clk, 
+                       q);
+
+    input clk;
+   output [2:0] q;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire [2:0] q_DUMMY;
+   
+   assign q[2:0] = q_DUMMY[2:0];
+   (* HU_SET = "XLXI_1_0" *) 
+   FD_MXILINX_special_counter #( .INIT(1'b0) ) XLXI_1 (.C(clk), 
+                                      .D(XLXN_1), 
+                                      .Q(q_DUMMY[2]));
+   (* HU_SET = "XLXI_2_1" *) 
+   FD_MXILINX_special_counter #( .INIT(1'b0) ) XLXI_2 (.C(clk), 
+                                      .D(XLXN_7), 
+                                      .Q(q_DUMMY[1]));
+   (* HU_SET = "XLXI_3_2" *) 
+   FD_MXILINX_special_counter #( .INIT(1'b0) ) XLXI_3 (.C(clk), 
+                                      .D(XLXN_8), 
+                                      .Q(q_DUMMY[0]));
+   OR2  XLXI_4 (.I0(q_DUMMY[0]), 
+               .I1(XLXN_2), 
+               .O(XLXN_1));
+   AND2B1  XLXI_5 (.I0(q_DUMMY[1]), 
+                  .I1(q_DUMMY[2]), 
+                  .O(XLXN_2));
+   AND2B2  XLXI_6 (.I0(q_DUMMY[1]), 
+                  .I1(q_DUMMY[0]), 
+                  .O(XLXN_7));
+   INV  XLXI_7 (.I(q_DUMMY[2]), 
+               .O(XLXN_8));
+endmodule

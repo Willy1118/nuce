@@ -1,0 +1,29 @@
+Command line:
+   FDC_and_FDR_FDC_and_FDR_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60446
+
+Thu Apr 25 11:53:14 2024
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 5165.67 Meg
+
+ Total Signals          : 52
+ Total Nets             : 24
+ Total Signal Drivers   : 18
+ Total Blocks           : 11
+ Total Primitive Blocks : 6
+ Total Processes        : 29
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 114
+Total Line Count : 68
+
+ Total Simulation Time: 0 sec
+
+ Current Memory Usage: 4693.82 Meg
+
+Thu Apr 25 11:55:51 2024
+

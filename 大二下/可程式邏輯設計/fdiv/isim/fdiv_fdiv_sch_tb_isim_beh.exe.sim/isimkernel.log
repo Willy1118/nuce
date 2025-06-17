@@ -1,0 +1,29 @@
+Command line:
+   fdiv_fdiv_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52971
+
+Wed Apr 17 21:07:10 2024
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5165.73 Meg
+
+ Total Signals          : 272
+ Total Nets             : 85
+ Total Signal Drivers   : 81
+ Total Blocks           : 56
+ Total Primitive Blocks : 41
+ Total Processes        : 99
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 186
+Total Line Count : 82
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 4693.87 Meg
+
+Wed Apr 17 21:17:59 2024
+

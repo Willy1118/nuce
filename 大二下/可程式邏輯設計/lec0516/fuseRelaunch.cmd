@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "C:/ncue_logic_design/lec0516/test101_isim_beh.exe" -prj "C:/ncue_logic_design/lec0516/test101_beh.prj" "work.test101" "work.glbl" 

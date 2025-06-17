@@ -1,0 +1,29 @@
+Command line:
+   mymul22_mymul22_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50301
+
+Thu Mar 14 11:33:38 2024
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5165.58 Meg
+
+ Total Signals          : 53
+ Total Nets             : 25
+ Total Signal Drivers   : 15
+ Total Blocks           : 13
+ Total Primitive Blocks : 9
+ Total Processes        : 17
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 109
+Total Line Count : 20
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 5008.29 Meg
+
+Thu Mar 14 11:34:58 2024
+

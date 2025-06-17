@@ -1,0 +1,47 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : myadd8.vf
+// /___/   /\     Timestamp : 03/14/2024 11:09:12
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/myadd8/myadd8.vf -w C:/ncue_logic_design/myadd8/myadd8.sch
+//Design Name: myadd8
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module myadd8(cin, 
+              x, 
+              y, 
+              cout, 
+              s);
+
+    input cin;
+    input [7:0] x;
+    input [7:0] y;
+   output cout;
+   output [7:0] s;
+   
+   wire XLXN_5;
+   
+   myadd4  XLXI_1 (.cin(cin), 
+                  .x(x[3:0]), 
+                  .y(y[3:0]), 
+                  .cout(XLXN_5), 
+                  .s(s[3:0]));
+   myadd4  XLXI_2 (.cin(XLXN_5), 
+                  .x(x[7:4]), 
+                  .y(y[7:4]), 
+                  .cout(cout), 
+                  .s(s[7:4]));
+endmodule

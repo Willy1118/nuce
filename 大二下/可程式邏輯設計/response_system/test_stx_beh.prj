@@ -1,0 +1,6 @@
+verilog isim_temp "service.v"
+verilog isim_temp "number.v"
+verilog isim_temp "call_number.v"
+verilog isim_temp "response_system_top.v"
+verilog isim_temp "test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

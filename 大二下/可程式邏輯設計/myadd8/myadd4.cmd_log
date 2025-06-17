@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family xc9500 -refsym myadd4 C:/ncue_logic_design/myadd4/myadd4.sch C:/ncue_logic_design/myadd8/myadd4.sym 

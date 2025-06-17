@@ -1,0 +1,2 @@
+sch2hdl,-intstyle,ise,-family,xc9500,-verilog,C:/ncue_logic_design/full_adder/fa.vf,-w,C:/ncue_logic_design/full_adder/fa.sch
+sch2hdl,-intstyle,ise,-family,xc9500,-verilog,C:/ncue_logic_design/full_adder/ha.vf,-w,C:/ncue_logic_design/half_adder/ha.sch

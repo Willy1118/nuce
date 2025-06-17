@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family xc9500 -refsym ha C:/ncue_logic_design/half_adder/ha.sch C:/ncue_logic_design/mymul22/ha.sym 

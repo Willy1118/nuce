@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ha.vf
+// /___/   /\     Timestamp : 03/12/2024 14:03:01
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/full_adder/ha.vf -w C:/ncue_logic_design/half_adder/ha.sch
+//Design Name: ha
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ha(a, 
+          b, 
+          carry, 
+          sum);
+
+    input a;
+    input b;
+   output carry;
+   output sum;
+   
+   
+   XOR2  XLXI_1 (.I0(b), 
+                .I1(a), 
+                .O(sum));
+   AND2  XLXI_2 (.I0(b), 
+                .I1(a), 
+                .O(carry));
+endmodule

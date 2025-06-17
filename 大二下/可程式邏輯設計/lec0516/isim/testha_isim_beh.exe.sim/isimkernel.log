@@ -1,0 +1,29 @@
+Command line:
+   testha_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53469
+
+Thu May 16 10:35:01 2024
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5166.32 Meg
+
+ Total Signals          : 19
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 99
+Total Line Count : 26
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5480.89 Meg
+
+Thu May 16 10:35:37 2024
+

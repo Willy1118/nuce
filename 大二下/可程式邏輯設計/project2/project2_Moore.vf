@@ -1,0 +1,152 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : project2_Moore.vf
+// /___/   /\     Timestamp : 04/24/2024 22:01:53
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500 -verilog C:/ncue_logic_design/project2/project2_Moore.vf -w C:/ncue_logic_design/project2/project2_Moore.sch
+//Design Name: project2_Moore
+//Device: xc9500
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FD_MXILINX_project2_Moore(C, 
+                                 D, 
+                                 Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input D;
+   output Q;
+   
+   wire XLXN_4;
+   
+   GND  I_36_43 (.G(XLXN_4));
+   FDCP  U0 (.C(C), 
+            .CLR(XLXN_4), 
+            .D(D), 
+            .PRE(XLXN_4), 
+            .Q(Q));
+endmodule
+`timescale 1ns / 1ps
+
+module project2_Moore(clk, 
+                      x, 
+                      Z);
+
+    input clk;
+    input x;
+   output Z;
+   
+   wire A;
+   wire C;
+   wire D;
+   wire E;
+   wire XLXN_47;
+   wire XLXN_48;
+   wire XLXN_49;
+   wire XLXN_50;
+   wire XLXN_60;
+   wire XLXN_61;
+   wire XLXN_62;
+   wire XLXN_63;
+   wire XLXN_75;
+   wire XLXN_76;
+   wire XLXN_77;
+   wire XLXN_80;
+   wire XLXN_91;
+   wire XLXN_92;
+   wire XLXN_97;
+   wire y1;
+   wire y2;
+   
+   (* HU_SET = "XLXI_2_3" *) 
+   FD_MXILINX_project2_Moore #( .INIT(1'b0) ) XLXI_2 (.C(clk), 
+                                     .D(XLXN_97), 
+                                     .Q(A));
+   (* HU_SET = "XLXI_38_0" *) 
+   FD_MXILINX_project2_Moore #( .INIT(1'b0) ) XLXI_38 (.C(clk), 
+                                      .D(XLXN_50), 
+                                      .Q(C));
+   (* HU_SET = "XLXI_42_1" *) 
+   FD_MXILINX_project2_Moore #( .INIT(1'b0) ) XLXI_42 (.C(clk), 
+                                      .D(XLXN_63), 
+                                      .Q(D));
+   (* HU_SET = "XLXI_43_2" *) 
+   FD_MXILINX_project2_Moore #( .INIT(1'b0) ) XLXI_43 (.C(clk), 
+                                      .D(XLXN_77), 
+                                      .Q(E));
+   OR3  XLXI_44 (.I0(XLXN_49), 
+                .I1(XLXN_48), 
+                .I2(XLXN_47), 
+                .O(XLXN_50));
+   AND3B1  XLXI_45 (.I0(x), 
+                   .I1(C), 
+                   .I2(E), 
+                   .O(XLXN_47));
+   AND3B1  XLXI_46 (.I0(E), 
+                   .I1(C), 
+                   .I2(x), 
+                   .O(XLXN_48));
+   AND2  XLXI_47 (.I0(D), 
+                 .I1(x), 
+                 .O(XLXN_49));
+   AND2B1  XLXI_49 (.I0(x), 
+                   .I1(D), 
+                   .O(XLXN_60));
+   AND3B2  XLXI_50 (.I0(x), 
+                   .I1(E), 
+                   .I2(C), 
+                   .O(XLXN_61));
+   AND4B2  XLXI_51 (.I0(C), 
+                   .I1(D), 
+                   .I2(x), 
+                   .I3(E), 
+                   .O(XLXN_62));
+   OR3  XLXI_52 (.I0(XLXN_60), 
+                .I1(XLXN_61), 
+                .I2(XLXN_62), 
+                .O(XLXN_63));
+   OR3  XLXI_53 (.I0(XLXN_75), 
+                .I1(C), 
+                .I2(XLXN_76), 
+                .O(XLXN_77));
+   AND2B1  XLXI_56 (.I0(x), 
+                   .I1(D), 
+                   .O(XLXN_76));
+   AND3B2  XLXI_58 (.I0(E), 
+                   .I1(D), 
+                   .I2(x), 
+                   .O(XLXN_75));
+   AND2B1  XLXI_59 (.I0(E), 
+                   .I1(C), 
+                   .O(XLXN_80));
+   OR2  XLXI_60 (.I0(D), 
+                .I1(XLXN_80), 
+                .O(y2));
+   INV  XLXI_63 (.I(A), 
+                .O(y1));
+   AND2B2  XLXI_65 (.I0(A), 
+                   .I1(x), 
+                   .O(XLXN_92));
+   AND2  XLXI_66 (.I0(A), 
+                 .I1(x), 
+                 .O(XLXN_91));
+   OR2  XLXI_67 (.I0(XLXN_91), 
+                .I1(XLXN_92), 
+                .O(XLXN_97));
+   AND2  XLXI_68 (.I0(y2), 
+                 .I1(y1), 
+                 .O(Z));
+endmodule
