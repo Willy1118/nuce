@@ -1,0 +1,287 @@
+|snake_top
+clk => clk.IN2
+rst => _.IN1
+rst => _.IN1
+rst => _.IN1
+rst => _.IN1
+speed_sel => clk_cnt.OUTPUTSELECT
+updn_sel => _.IN1
+updn_sel => _.IN1
+seg7_5[0] <= rom_a:a0.port1
+seg7_5[1] <= rom_a:a0.port1
+seg7_5[2] <= rom_a:a0.port1
+seg7_5[3] <= rom_a:a0.port1
+seg7_5[4] <= rom_a:a0.port1
+seg7_5[5] <= rom_a:a0.port1
+seg7_5[6] <= rom_a:a0.port1
+seg7_5_dpt <= rom_a:a0.port2
+seg7_4[0] <= rom_b:b0.port1
+seg7_4[1] <= rom_b:b0.port1
+seg7_4[2] <= rom_b:b0.port1
+seg7_4[3] <= rom_b:b0.port1
+seg7_4[4] <= rom_b:b0.port1
+seg7_4[5] <= rom_b:b0.port1
+seg7_4[6] <= rom_b:b0.port1
+seg7_4_dpt <= rom_b:b0.port2
+seg7_3[0] <= rom_c:c0.port1
+seg7_3[1] <= rom_c:c0.port1
+seg7_3[2] <= rom_c:c0.port1
+seg7_3[3] <= rom_c:c0.port1
+seg7_3[4] <= rom_c:c0.port1
+seg7_3[5] <= rom_c:c0.port1
+seg7_3[6] <= rom_c:c0.port1
+seg7_3_dpt <= rom_c:c0.port2
+seg7_2[0] <= rom_d:d0.port1
+seg7_2[1] <= rom_d:d0.port1
+seg7_2[2] <= rom_d:d0.port1
+seg7_2[3] <= rom_d:d0.port1
+seg7_2[4] <= rom_d:d0.port1
+seg7_2[5] <= rom_d:d0.port1
+seg7_2[6] <= rom_d:d0.port1
+seg7_2_dpt <= rom_d:d0.port2
+seg7_0[0] <= num_to_seg7_0_9:n0.port1
+seg7_0[1] <= num_to_seg7_0_9:n0.port1
+seg7_0[2] <= num_to_seg7_0_9:n0.port1
+seg7_0[3] <= num_to_seg7_0_9:n0.port1
+seg7_0[4] <= num_to_seg7_0_9:n0.port1
+seg7_0[5] <= num_to_seg7_0_9:n0.port1
+seg7_0[6] <= num_to_seg7_0_9:n0.port1
+seg7_0_dpt <= num_to_seg7_0_9:n0.port2
+
+
+|snake_top|freq_div:f1
+clk => divider[0].CLK
+clk => divider[1].CLK
+clk => divider[2].CLK
+clk => divider[3].CLK
+clk => divider[4].CLK
+clk => divider[5].CLK
+clk => divider[6].CLK
+clk => divider[7].CLK
+clk => divider[8].CLK
+clk => divider[9].CLK
+clk => divider[10].CLK
+clk => divider[11].CLK
+clk => divider[12].CLK
+clk => divider[13].CLK
+clk => divider[14].CLK
+clk => divider[15].CLK
+clk => divider[16].CLK
+clk => divider[17].CLK
+clk => divider[18].CLK
+clk => divider[19].CLK
+rst => divider[0].ACLR
+rst => divider[1].ACLR
+rst => divider[2].ACLR
+rst => divider[3].ACLR
+rst => divider[4].ACLR
+rst => divider[5].ACLR
+rst => divider[6].ACLR
+rst => divider[7].ACLR
+rst => divider[8].ACLR
+rst => divider[9].ACLR
+rst => divider[10].ACLR
+rst => divider[11].ACLR
+rst => divider[12].ACLR
+rst => divider[13].ACLR
+rst => divider[14].ACLR
+rst => divider[15].ACLR
+rst => divider[16].ACLR
+rst => divider[17].ACLR
+rst => divider[18].ACLR
+rst => divider[19].ACLR
+clk_out <= divider[19].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|snake_top|freq_div:f2
+clk => divider[0].CLK
+clk => divider[1].CLK
+clk => divider[2].CLK
+clk => divider[3].CLK
+clk => divider[4].CLK
+clk => divider[5].CLK
+clk => divider[6].CLK
+clk => divider[7].CLK
+clk => divider[8].CLK
+clk => divider[9].CLK
+clk => divider[10].CLK
+clk => divider[11].CLK
+clk => divider[12].CLK
+clk => divider[13].CLK
+clk => divider[14].CLK
+clk => divider[15].CLK
+clk => divider[16].CLK
+clk => divider[17].CLK
+clk => divider[18].CLK
+clk => divider[19].CLK
+clk => divider[20].CLK
+clk => divider[21].CLK
+clk => divider[22].CLK
+clk => divider[23].CLK
+rst => divider[0].ACLR
+rst => divider[1].ACLR
+rst => divider[2].ACLR
+rst => divider[3].ACLR
+rst => divider[4].ACLR
+rst => divider[5].ACLR
+rst => divider[6].ACLR
+rst => divider[7].ACLR
+rst => divider[8].ACLR
+rst => divider[9].ACLR
+rst => divider[10].ACLR
+rst => divider[11].ACLR
+rst => divider[12].ACLR
+rst => divider[13].ACLR
+rst => divider[14].ACLR
+rst => divider[15].ACLR
+rst => divider[16].ACLR
+rst => divider[17].ACLR
+rst => divider[18].ACLR
+rst => divider[19].ACLR
+rst => divider[20].ACLR
+rst => divider[21].ACLR
+rst => divider[22].ACLR
+rst => divider[23].ACLR
+clk_out <= divider[23].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|snake_top|updn_count:u0
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+clk => count[4]~reg0.CLK
+rst => count[0]~reg0.ACLR
+rst => count[1]~reg0.ACLR
+rst => count[2]~reg0.ACLR
+rst => count[3]~reg0.ACLR
+rst => count[4]~reg0.ACLR
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|snake_top|rom_a:a0
+addr[0] => Decoder0.IN4
+addr[1] => Decoder0.IN3
+addr[2] => Decoder0.IN2
+addr[3] => Decoder0.IN1
+addr[4] => Decoder0.IN0
+data[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= <VCC>
+data[2] <= <VCC>
+data[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+data[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+data[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dpt <= <VCC>
+
+
+|snake_top|rom_b:b0
+addr[0] => Decoder0.IN4
+addr[1] => Decoder0.IN3
+addr[2] => Decoder0.IN2
+addr[3] => Decoder0.IN1
+addr[4] => Decoder0.IN0
+data[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= <VCC>
+data[2] <= <VCC>
+data[3] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= <VCC>
+data[5] <= <VCC>
+data[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dpt <= <VCC>
+
+
+|snake_top|rom_c:c0
+addr[0] => Decoder0.IN4
+addr[1] => Decoder0.IN3
+addr[2] => Decoder0.IN2
+addr[3] => Decoder0.IN1
+addr[4] => Decoder0.IN0
+data[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= <VCC>
+data[2] <= <VCC>
+data[3] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= <VCC>
+data[5] <= <VCC>
+data[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dpt <= <VCC>
+
+
+|snake_top|rom_d:d0
+addr[0] => Decoder0.IN4
+addr[1] => Decoder0.IN3
+addr[2] => Decoder0.IN2
+addr[3] => Decoder0.IN1
+addr[4] => Decoder0.IN0
+data[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+data[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+data[3] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= <VCC>
+data[5] <= <VCC>
+data[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dpt <= <VCC>
+
+
+|snake_top|snake_run_cnt:s0
+clk => run_cnt_tmp[0].CLK
+clk => run_cnt_tmp[1].CLK
+clk => run_cnt_tmp[2].CLK
+clk => run_cnt_tmp[3].CLK
+clk => run_stop~reg0.CLK
+clk => run_cnt[0]~reg0.CLK
+clk => run_cnt[1]~reg0.CLK
+clk => run_cnt[2]~reg0.CLK
+clk => run_cnt[3]~reg0.CLK
+rst => run_cnt_tmp[0].PRESET
+rst => run_cnt_tmp[1].ACLR
+rst => run_cnt_tmp[2].ACLR
+rst => run_cnt_tmp[3].ACLR
+rst => run_stop~reg0.ACLR
+rst => run_cnt[0]~reg0.ACLR
+rst => run_cnt[1]~reg0.ACLR
+rst => run_cnt[2]~reg0.ACLR
+rst => run_cnt[3]~reg0.ACLR
+updn => always0.IN1
+updn => always0.IN1
+ptn_cnt[0] => Equal0.IN2
+ptn_cnt[0] => Equal1.IN0
+ptn_cnt[1] => Equal0.IN1
+ptn_cnt[1] => Equal1.IN31
+ptn_cnt[2] => Equal0.IN31
+ptn_cnt[2] => Equal1.IN30
+ptn_cnt[3] => Equal0.IN30
+ptn_cnt[3] => Equal1.IN29
+ptn_cnt[4] => Equal0.IN0
+ptn_cnt[4] => Equal1.IN28
+run_cnt[0] <= run_cnt[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+run_cnt[1] <= run_cnt[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+run_cnt[2] <= run_cnt[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+run_cnt[3] <= run_cnt[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+run_stop <= run_stop~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|snake_top|num_to_seg7_0_9:n0
+num[0] => Decoder0.IN3
+num[1] => Decoder0.IN2
+num[2] => Decoder0.IN1
+num[3] => Decoder0.IN0
+seg7[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg7[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg7[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg7[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg7[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg7[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg7[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dpt <= <VCC>
+
+

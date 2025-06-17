@@ -1,0 +1,136 @@
+|addsub_4_top
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sel => sel.IN1
+cout << addsub_4:m0.port3
+sum[0] << addsub_4:m0.port4
+sum[1] << addsub_4:m0.port4
+sum[2] << addsub_4:m0.port4
+sum[3] << addsub_4:m0.port4
+
+
+|addsub_4_top|addsub_4:m0
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => w0.DATAB
+b[0] => w0.DATAA
+b[1] => w0.DATAB
+b[1] => w0.DATAA
+b[2] => w0.DATAB
+b[2] => w0.DATAA
+b[3] => w0.DATAB
+b[3] => cout.IN1
+b[3] => cout.IN1
+b[3] => w0.DATAA
+b[3] => cout.IN1
+b[3] => cout.IN1
+sel => sel.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum[0] <= add_4:m0.port3
+sum[1] <= add_4:m0.port3
+sum[2] <= add_4:m0.port3
+sum[3] <= add_4:m0.port3
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => sum.IN0
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => sum.IN1
+cin => cin.IN1
+sum[0] <= add_full:m0.port4
+sum[1] <= add_full:m1.port4
+sum[2] <= add_full:m2.port4
+sum[3] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m0
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= add_half:m1.port3
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m0|add_half:m0
+a => cout.IN0
+a => sum.IN0
+b => cout.IN1
+b => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m0|add_half:m1
+a => cout.IN0
+a => sum.IN0
+b => cout.IN1
+b => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m1
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= add_half:m1.port3
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m1|add_half:m0
+a => cout.IN0
+a => sum.IN0
+b => cout.IN1
+b => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m1|add_half:m1
+a => cout.IN0
+a => sum.IN0
+b => cout.IN1
+b => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m2
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= add_half:m1.port3
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m2|add_half:m0
+a => cout.IN0
+a => sum.IN0
+b => cout.IN1
+b => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addsub_4_top|addsub_4:m0|add_4:m0|add_full:m2|add_half:m1
+a => cout.IN0
+a => sum.IN0
+b => cout.IN1
+b => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+

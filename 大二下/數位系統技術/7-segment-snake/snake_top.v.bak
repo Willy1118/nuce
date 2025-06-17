@@ -1,0 +1,27 @@
+module snake_top(clk, rst, speed_sel, updn_sel, seg7_5, seg7_5_dpt, seg7_4, seg7_4_dpt, seg7_3, seg7_3_dpt, seg7_2, seg7_2_dpt, seg7_0, seg7_0_dpt,);
+
+	input  speed_sel, rst, clk, updn_sel;
+	output [6:0] seg7_5, seg7_4, seg7_3, seg7_2, seg7_0;
+	output seg7_5_dpt, seg7_4_dpt, seg7_3_dpt, seg7_2_dpt, seg7_0_dpt;
+	
+	wire clk_cnt, clk_fast, clk_slow;
+	freq_div #(24) f1(clk, ~rst, clk_fast);
+	freq_div #(8) f2(clk, ~rst, clk_slow);
+	
+	wire run_stop;
+	assign clk_cnt = (run_stop == 1)? 0 : (speed == 1)? clk_fast : clk_slow;
+	
+	wire [4:0] ptn_cnt;
+	updn_count #(20) u0(clk_cnt, rst, ~updn_sel, ptn_cnt);
+	
+	rom_a a0(ptn_cnt, seg7_5, seg7_5_dpt);
+	rom_b b0(ptn_cnt, seg7_4, seg7_4_dpt);
+	rom_c c0(ptn_cnt, seg7_3, seg7_3_dpt);
+	rom_d d0(ptn_cnt, seg7_2, seg7_2_dpt);
+	
+	wire [3:0] run_cnt;
+	snake_run_cnt #(9) s0(clk_cnt, rst, updn_sel, ptn_cnt, run_cnt, run_stop);
+	
+	num_to_seg_0_9(run_cnt, seg7_0, seg7_0_dpt);
+	
+endmodule 

@@ -1,0 +1,48 @@
+module final_practice1(clk, rst, J4, J7, J11, mode);
+
+	input clk, rst;
+	input [5:0] mode;
+	output [8:1] J4, J7;
+	output [8:1] J11;
+	
+	wire [15:0] col;
+	wire [3:0] row_bin;
+	
+	assign J4[1] = ~col[15];
+	assign J4[3] = ~col[14];
+	assign J4[5] = ~col[13];
+	assign J4[7] = ~col[12];
+	assign J4[2] = ~col[11];
+	assign J4[4] = ~col[10];
+	assign J4[6] = ~col[9];
+	assign J4[8] = ~col[8];
+	
+	assign J7[1] = ~col[7];
+	assign J7[3] = ~col[6];
+	assign J7[5] = ~col[5];
+	assign J7[7] = ~col[4];
+	assign J7[2] = ~col[3];
+	assign J7[4] = ~col[2];
+	assign J7[6] = ~col[1];
+	assign J7[8] = ~col[0];
+	
+	assign J11[1] = row_bin[0];
+	assign J11[3] = row_bin[1];
+	assign J11[5] = row_bin[2];
+	assign J11[7] = row_bin[3];
+	
+	wire clk2;
+	wire [15:0] col_ptn0, col_ptn1, col_ptn2, col_ptn3, col_ptn4, col_ptn5, col_ptn10;
+	
+	freq_div #(16) m0(clk, ~rst, clk2);
+	row_sel        m1(clk2, ~rst, row_bin);
+	pattern0       m2(row_bin+4'd1, col_ptn0);
+	pattern1       m3(row_bin+4'd1, col_ptn1);
+	pattern2       m4(row_bin+4'd1, col_ptn2);
+	pattern3       m5(row_bin+4'd1, col_ptn3);
+	pattern4       m6(row_bin+4'd1, col_ptn4);
+	pattern5       m7(row_bin+4'd1, col_ptn5);
+	pattern10      m8(row_bin+4'd1, col_ptn10);
+	ptn_sel        m9(clk2, ~rst, mode, col_ptn0, col_ptn1, col_ptn2, col_ptn3, col_ptn4, col_ptn5, col_ptn10, col);
+
+endmodule 

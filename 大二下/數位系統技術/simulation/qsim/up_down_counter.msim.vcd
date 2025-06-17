@@ -1,0 +1,225 @@
+$comment
+	File created using the following command:
+		vcd file up_down_counter.msim.vcd -direction
+$end
+$date
+	Wed Mar 27 10:17:07 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module freq_div_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var wire 1 # clk_out $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * clk_out~output_o $end
+$var wire 1 + clk~input_o $end
+$var wire 1 , divider[0]~2_combout $end
+$var wire 1 - rst~input_o $end
+$var wire 1 . divider[1]~1_combout $end
+$var wire 1 / divider[2]~0_combout $end
+$var wire 1 0 divider [2] $end
+$var wire 1 1 divider [1] $end
+$var wire 1 2 divider [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+1,
+1-
+0.
+0/
+02
+01
+00
+$end
+#5000
+1!
+1+
+#10000
+0"
+0!
+0-
+0+
+#15000
+1!
+1+
+12
+1.
+0,
+#20000
+0!
+0+
+#25000
+1!
+1+
+11
+02
+1,
+#30000
+0!
+0+
+#35000
+1!
+1+
+12
+1/
+0.
+0,
+#40000
+0!
+0+
+#45000
+1!
+1+
+01
+02
+10
+1*
+1#
+1,
+#50000
+0!
+0+
+#55000
+1!
+1+
+12
+1.
+0,
+#60000
+0!
+0+
+#65000
+1!
+1+
+11
+02
+1,
+#70000
+0!
+0+
+#75000
+1!
+1+
+12
+0/
+0.
+0,
+#80000
+0!
+0+
+#85000
+1!
+1+
+01
+02
+00
+0*
+0#
+1,
+#90000
+0!
+0+
+#95000
+1!
+1+
+12
+1.
+0,
+#100000
+0!
+0+
+#105000
+1!
+1+
+11
+02
+1,
+#110000
+0!
+0+
+#115000
+1!
+1+
+12
+1/
+0.
+0,
+#120000
+0!
+0+
+#125000
+1!
+1+
+01
+02
+10
+1*
+1#
+1,
+#130000
+0!
+0+
+#135000
+1!
+1+
+12
+1.
+0,
+#140000
+0!
+0+
+#145000
+1!
+1+
+11
+02
+1,
+#150000
+0!
+0+
+#155000
+1!
+1+
+12
+0/
+0.
+0,
+#160000
+0!
+0+
+#165000
+1!
+1+
+01
+02
+00
+0*
+0#
+1,
+#170000

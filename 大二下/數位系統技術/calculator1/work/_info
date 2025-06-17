@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vkey_buffer
+Z0 !s110 1716346439
+!i10b 1
+!s100 2U><[iGKTklb^;]:a4AP52
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVINc]cG=Zg[F^97;hShd;2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/willy/calculator1
+w1716342225
+8D:/willy/calculater/key_buffer.v
+FD:/willy/calculater/key_buffer.v
+!i122 0
+L0 1 80
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1716346439.000000
+!s107 D:/willy/calculater/key_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/willy/calculater/key_buffer.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vkeyboard
+R0
+!i10b 1
+!s100 AJ][V0dk1B[Bj53e8I=ZL3
+R1
+I]c[g?ZS[P=UmgX4zf54em0
+R2
+R3
+w1716340949
+8D:/willy/calculater/keyboard.v
+FD:/willy/calculater/keyboard.v
+!i122 1
+L0 1 90
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/willy/calculater/keyboard.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/willy/calculater/keyboard.v|
+!i113 1
+R6
+R7
+vkeyboard_top
+R0
+!i10b 1
+!s100 RBg@RB^SYzQX9_G:SX][K0
+R1
+IlQ:6e1D>l2I@5ZZJYmgW[2
+R2
+R3
+w1716343211
+8D:/willy/calculater/keyboard_top.v
+FD:/willy/calculater/keyboard_top.v
+!i122 2
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/willy/calculater/keyboard_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/willy/calculater/keyboard_top.v|
+!i113 1
+R6
+R7
+vkeyboard_top_tb
+R0
+!i10b 1
+!s100 GV3dmSU3@AnmSg;@MXe`b2
+R1
+IOdJVha5nBIk@0`8<hc4DE3
+R2
+R3
+w1716340989
+8D:/willy/calculater/keyboard_top_tb.v
+FD:/willy/calculater/keyboard_top_tb.v
+!i122 3
+L0 3 65
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/willy/calculater/keyboard_top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/willy/calculater/keyboard_top_tb.v|
+!i113 1
+R6
+R7
+vkr_scan
+R0
+!i10b 1
+!s100 H<Vc>anF2J>UL5UnNbUHb3
+R1
+I38f=m?P6j]EPVMedjbf_Z0
+R2
+R3
+w1716340929
+8D:/willy/calculater/kr_scan.v
+FD:/willy/calculater/kr_scan.v
+!i122 4
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/willy/calculater/kr_scan.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/willy/calculater/kr_scan.v|
+!i113 1
+R6
+R7

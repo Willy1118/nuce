@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/willy/simulation/qsim
+vfreq_div
+!s110 1711505826
+!i10b 1
+!s100 DHE^RTbIB6<fnEYg>74203
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IP:JokFEamPS2UYhlL3P190
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1711505826
+Z3 8up_down_counter.vo
+Z4 Fup_down_counter.vo
+!i122 8
+L0 32 167
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1711505826.000000
+Z6 !s107 up_down_counter.vo|
+Z7 !s90 -work|work|up_down_counter.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vfreq_div_vlg_vec_tst
+!s110 1711505827
+!i10b 1
+!s100 IB5b:5XTgI5f]]mnaeG770
+R1
+I`WBWdaSMHP:lii6:>85O52
+R2
+R0
+w1711505825
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+!i122 9
+L0 30 35
+R5
+r1
+!s85 0
+31
+!s108 1711505827.000000
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R8
+R9
+vupdn_count
+Z10 !s110 1711505110
+!i10b 1
+!s100 V[J02J;BgYLQogCZAcZ;;3
+R1
+Ia22?YFRZ@BV7n_>1KKY6Q1
+R2
+R0
+w1711505109
+R3
+R4
+!i122 6
+L0 32 569
+R5
+r1
+!s85 0
+31
+Z11 !s108 1711505110.000000
+R6
+R7
+!i113 1
+R8
+R9
+vupdn_count_vlg_vec_tst
+R10
+!i10b 1
+!s100 PLF[@Xl9]m9_Hfke?e^=Z2
+R1
+II=bkMocIcfWOmM]JIgn_?1
+R2
+R0
+w1711505108
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 7
+L0 30 45
+R5
+r1
+!s85 0
+31
+R11
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R8
+R9

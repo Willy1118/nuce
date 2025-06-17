@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/willy/UART_RX/simulation/qsim
+vUART_RX
+Z1 !s110 1716953334
+!i10b 1
+!s100 RF^k9A:8R4a`MSNkn@z=m1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBTlzcE>XcJIl4X:c_RnR;2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1716953334
+8UART_RX.vo
+FUART_RX.vo
+!i122 8
+L0 32 845
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1716953334.000000
+!s107 UART_RX.vo|
+!s90 -work|work|UART_RX.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@u@a@r@t_@r@x
+vUART_RX_vlg_vec_tst
+R1
+!i10b 1
+!s100 lO2J9M0JzROE[a=JY`HK51
+R2
+IUhngQ9NV;Rg8YQod6YF]63
+R3
+R0
+w1716953333
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 9
+L0 30 56
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
+n@u@a@r@t_@r@x_vlg_vec_tst

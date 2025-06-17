@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/willy/lab4_7segment/simulation/qsim
+vaddmux_4
+Z1 !s110 1710899832
+!i10b 1
+!s100 VJ<E[[`40XSCVJM=O>O[12
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOTV@VD_iP=79F`@^F9cJi3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1710899830
+87segment.vo
+F7segment.vo
+!i122 0
+L0 32 425
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1710899832.000000
+!s107 7segment.vo|
+!s90 -work|work|7segment.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vaddmux_4_vlg_vec_tst
+R1
+!i10b 1
+!s100 c;:dHhaIeN@O5`c=R6F1M3
+R2
+I1YiEdj2^22Uc_ET^fU@i@1
+R3
+R0
+R4
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 99
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R7
+R8

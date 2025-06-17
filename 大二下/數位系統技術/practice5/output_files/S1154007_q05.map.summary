@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Apr 17 11:47:00 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : S1154007_q05
+Top-level Entity Name : S1154007_q05
+Family : MAX 10
+Total logic elements : 86
+    Total combinational functions : 86
+    Dedicated logic registers : 57
+Total registers : 57
+Total pins : 23
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,8 @@
+module S1154007_q02(clk, rst, seg2, seg1, seg0)
+
+	input clk, rst;
+	output [6:0] seg2, seg1, seg0;
+	
+	
+
+endmodule 

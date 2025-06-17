@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "J4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "J4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "J4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "J4[8]",
+					"strict" : false
+				},
+				{
+					"name" : "J7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "J7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "J7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "J7[7]",
+					"strict" : false
+				},
+				{
+					"name" : "J11[1]",
+					"strict" : false
+				},
+				{
+					"name" : "J11[3]",
+					"strict" : false
+				},
+				{
+					"name" : "J11[5]",
+					"strict" : false
+				},
+				{
+					"name" : "J11[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mode[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mode[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

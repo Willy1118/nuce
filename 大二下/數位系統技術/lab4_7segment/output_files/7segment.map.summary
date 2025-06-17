@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Mar 20 11:08:32 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : 7segment
+Top-level Entity Name : addseg7_top
+Family : MAX 10
+Total logic elements : 34
+    Total combinational functions : 34
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 37
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

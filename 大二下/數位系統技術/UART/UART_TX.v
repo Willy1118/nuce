@@ -1,0 +1,54 @@
+module UART_TX(i_clk, i_rst, i_TX_Byte, o_TX_Bit);
+
+	input  i_clk, i_rst;
+	input  [7:0] i_TX_Byte;
+	output o_TX_Bit;
+	
+	parameter [1:0] TX_START_ST = 2'd0;
+	parameter [1:0] TX_DATA_ST  = 2'd1;
+	parameter [1:0] TX_STOP_ST  = 2'd2;
+	
+	reg [1:0] r_SM_Main  = TX_START_ST;
+	reg [2:0] r_Byte_Idx = 3'd0;
+	
+	reg r_TX_Bit = 1'b1;
+	assign o_TX_Bit = r_TX_Bit;
+	
+	always @(posedge i_clk or posedge i_rst) begin
+		if(i_rst == 1'b1) begin
+			r_Byte_Idx = 3'd0;
+			r_TX_Bit = 1'b1;
+			r_SM_Main = TX_START_ST;
+		end
+		else begin
+			case(r_SM_Main)
+			
+				TX_START_ST: begin
+					r_Byte_Idx = 3'd0;
+					r_TX_Bit = 1'b0;
+					r_SM_Main = TX_DATA_ST;
+				end
+				
+				TX_DATA_ST: begin
+					r_TX_Bit = i_TX_Byte[r_Byte_Idx];
+					
+					if(r_Byte_Idx < 3'd7) begin
+						r_Byte_Idx = r_Byte_Idx + 1'b1;
+					end
+					else 
+						r_SM_Main = TX_STOP_ST;
+				end
+				
+				TX_STOP_ST: begin
+					r_TX_Bit = 1'b1;
+					r_SM_Main = TX_START_ST;
+				end
+				
+				default:
+					r_SM_Main = TX_START_ST;
+				
+			endcase
+		end
+	end
+
+endmodule 

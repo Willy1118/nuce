@@ -1,0 +1,102 @@
+|S1154007_q03
+clk => clk.IN1
+rst => _.IN1
+rst => _.IN1
+seg3[0] <= seg3[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg3[1] <= <GND>
+seg3[2] <= seg3[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg3[3] <= seg3[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg3[4] <= seg3[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg3[5] <= seg3[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg3[6] <= seg3[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg2[0] <= seg2[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg2[1] <= <GND>
+seg2[2] <= seg2[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg2[3] <= seg2[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg2[4] <= seg2[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg2[5] <= seg2[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg2[6] <= seg2[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg1[0] <= seg1[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg1[1] <= <GND>
+seg1[2] <= seg1[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg1[3] <= seg1[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg1[4] <= seg1[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg1[5] <= seg1[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+seg1[6] <= seg1[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|S1154007_q03|freq_div:f1
+clk => divider[0].CLK
+clk => divider[1].CLK
+clk => divider[2].CLK
+clk => divider[3].CLK
+clk => divider[4].CLK
+clk => divider[5].CLK
+clk => divider[6].CLK
+clk => divider[7].CLK
+clk => divider[8].CLK
+clk => divider[9].CLK
+clk => divider[10].CLK
+clk => divider[11].CLK
+clk => divider[12].CLK
+clk => divider[13].CLK
+clk => divider[14].CLK
+clk => divider[15].CLK
+clk => divider[16].CLK
+clk => divider[17].CLK
+clk => divider[18].CLK
+clk => divider[19].CLK
+clk => divider[20].CLK
+clk => divider[21].CLK
+clk => divider[22].CLK
+clk => divider[23].CLK
+rst => divider[0].ACLR
+rst => divider[1].ACLR
+rst => divider[2].ACLR
+rst => divider[3].ACLR
+rst => divider[4].ACLR
+rst => divider[5].ACLR
+rst => divider[6].ACLR
+rst => divider[7].ACLR
+rst => divider[8].ACLR
+rst => divider[9].ACLR
+rst => divider[10].ACLR
+rst => divider[11].ACLR
+rst => divider[12].ACLR
+rst => divider[13].ACLR
+rst => divider[14].ACLR
+rst => divider[15].ACLR
+rst => divider[16].ACLR
+rst => divider[17].ACLR
+rst => divider[18].ACLR
+rst => divider[19].ACLR
+rst => divider[20].ACLR
+rst => divider[21].ACLR
+rst => divider[22].ACLR
+rst => divider[23].ACLR
+clk_out <= divider[23].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|S1154007_q03|updn_count:u1
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+clk => count[4]~reg0.CLK
+rst => count[0]~reg0.ACLR
+rst => count[1]~reg0.ACLR
+rst => count[2]~reg0.ACLR
+rst => count[3]~reg0.ACLR
+rst => count[4]~reg0.ACLR
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

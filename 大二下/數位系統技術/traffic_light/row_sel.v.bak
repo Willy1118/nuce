@@ -1,0 +1,13 @@
+module row_sel(clk, rst, row_bin);
+
+	input clk, rst;
+   output [3:0] row_bin;
+	
+	always @(posedge clk or posedge rst) begin
+		if(rst)
+			row_bin = 4'b0000;
+		else
+			row_bin = row_bun + 1;
+	end
+
+endmodule 

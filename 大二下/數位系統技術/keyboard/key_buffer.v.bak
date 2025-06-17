@@ -1,0 +1,8 @@
+module key_buffer(clk, rst, press, scan_code, buf_flag, key_buf_code);
+
+	input  clk, rst, press;
+	input  [3:0] scan_code;
+	output [5:0] buf_flag;
+	output [23:0] key_buf_code;
+
+endmodule 

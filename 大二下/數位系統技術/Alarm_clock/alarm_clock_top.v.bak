@@ -1,0 +1,2 @@
+module alarm_clock_top(clk, rst, hr1, hr0, min1, min0
+seg7_5)

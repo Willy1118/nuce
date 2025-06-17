@@ -1,0 +1,58 @@
+module UART_RX(i_clk, i_rst, i_RX_Bit, o_RX_Byte);
+
+	input  i_clk, i_rst;
+	input  i_RX_Bit;
+	output [7:0] o_RX_Byte;
+	
+	parameter [1:0] RX_START_ST = 2'd0;
+	parameter [1:0] RX_DATA_ST  = 2'd1;
+	parameter [1:0] RX_STOP_ST  = 2'd2;
+	
+	reg [1:0] r_SM_Main  = RX_START_ST;
+	reg [2:0] r_Byte_Idx = 3'd0;
+	
+	reg [7:0] r_RX_Byte = 8'd0;
+	assign o_RX_Byte = r_RX_Byte;
+
+	always @(posedge i_clk or posedge i_rst) begin
+		if(i_rst == 1'b1) begin
+			r_Byte_Idx = 3'd0;
+			r_RX_Byte = 8'd0;
+			r_SM_Main = RX_START_ST;
+		end
+		else begin
+			case(r_SM_Main)
+			
+				RX_START_ST: begin
+					r_Byte_Idx = 3'd0;
+					
+					if(i_RX_Bit == 1'b0)
+						r_SM_Main = RX_DATA_ST;
+					else
+						r_SM_Main = RX_START_ST;
+				end
+				
+				RX_DATA_ST: begin
+					r_RX_Byte[r_Byte_Idx] = i_RX_Bit;
+					
+					if(r_Byte_Idx < 3'd7) begin
+						r_Byte_Idx = r_Byte_Idx + 1'b1;
+						r_SM_Main = RX_DATA_ST;
+					end
+					else
+						r_SM_Main = RX_STOP_ST;
+				end
+				
+				RX_STOP_ST: begin
+					r_SM_Main = RX_START_ST;
+				end
+				
+				default:
+					r_SM_Main = RX_START_ST;
+			
+			endcase
+		end
+	end
+	
+	
+endmodule 

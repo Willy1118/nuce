@@ -1,0 +1,195 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/willy/Alarm_clock/simulation/qsim
+valarm_clock
+Z1 !s110 1714531633
+!i10b 1
+!s100 >_<6obFdSkS8<VA>WQk>^2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_51TT7eC4H;lE:oL=51^T1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1714531632
+Z5 8Alarm_clock.vo
+Z6 FAlarm_clock.vo
+!i122 22
+L0 32 2047
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1714531633.000000
+Z9 !s107 Alarm_clock.vo|
+Z10 !s90 -work|work|Alarm_clock.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+valarm_clock_vlg_vec_tst
+R1
+!i10b 1
+!s100 kd;7>NfgXQ^E>5LgAZJ2o1
+R2
+IJ1>a:co4UD3;]?Qc96?Z73
+R3
+R0
+R4
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+!i122 23
+L0 30 116
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R11
+R12
+vclock
+!s110 1714528687
+!i10b 1
+!s100 0dXL>ahf]NXME5a=bchzE0
+R2
+I9U:Fl>ZHkWDHm^ZBR]FAl2
+R3
+R0
+w1714528687
+R5
+R6
+!i122 8
+L0 32 1077
+R7
+r1
+!s85 0
+31
+!s108 1714528687.000000
+R9
+R10
+!i113 1
+R11
+R12
+vclock_vlg_vec_tst
+!s110 1714528688
+!i10b 1
+!s100 TezWS`hA=HBM_fM=5fBif0
+R2
+IjN7930OPFzSIX]ZJc7YQL2
+R3
+R0
+w1714528686
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 9
+L0 30 41
+R7
+r1
+!s85 0
+31
+!s108 1714528688.000000
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R11
+R12
+vcnt_00_23_bcd
+Z13 !s110 1714528217
+!i10b 1
+!s100 DAJj?X[gDj::O^E_H7SDN2
+R2
+IOY8WC2zojZMbkGWfzTo?@2
+R3
+R0
+w1714528216
+R5
+R6
+!i122 4
+L0 32 606
+R7
+r1
+!s85 0
+31
+Z14 !s108 1714528217.000000
+R9
+R10
+!i113 1
+R11
+R12
+vcnt_00_23_bcd_vlg_vec_tst
+R13
+!i10b 1
+!s100 mz_7Rkn`V4A9=Z0HVN0SH2
+R2
+IJ_zjXI6:`o7Z;YQBlV7`T2
+R3
+R0
+w1714528215
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 5
+L0 30 46
+R7
+r1
+!s85 0
+31
+R14
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+vcnt_00_59_bcd
+Z15 !s110 1714527485
+!i10b 1
+!s100 <W3kMOR>WCVf[H@Cb`n8@1
+R2
+I`]dW2ilK7f2`7J8:_gcYL0
+R3
+R0
+w1714527485
+R5
+R6
+!i122 2
+L0 32 575
+R7
+r1
+!s85 0
+31
+Z16 !s108 1714527485.000000
+R9
+R10
+!i113 1
+R11
+R12
+vcnt_00_59_bcd_vlg_vec_tst
+R15
+!i10b 1
+!s100 N`4M6ahlz9YXK9VFcS79b2
+R2
+I9@4oKPidI07Jn<`jZSe<j0
+R3
+R0
+w1714527484
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 39
+R7
+r1
+!s85 0
+31
+R16
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12

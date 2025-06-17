@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/willy/final_practice3/simulation/qsim
+vfinal_practice3
+Z1 !s110 1718155371
+!i10b 1
+!s100 5MZBVRfaiFm7[Z0S2236Y1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IC:d[_moiRC8l0>75ROQa^0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1718155370
+8final_practice3.vo
+Ffinal_practice3.vo
+!i122 12
+L0 32 1862
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1718155371.000000
+!s107 final_practice3.vo|
+!s90 -work|work|final_practice3.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfinal_practice3_vlg_vec_tst
+R1
+!i10b 1
+!s100 6P_@nQ]eY8^<@z3LYYUmC0
+R2
+Iie8JJYhIYNzoQ[NAEFADi0
+R3
+R0
+w1718155369
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 13
+L0 30 93
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

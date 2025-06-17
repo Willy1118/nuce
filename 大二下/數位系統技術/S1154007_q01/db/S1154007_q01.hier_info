@@ -1,0 +1,22 @@
+|S1154007_q01
+a[0] => Decoder0.IN2
+a[0] => Decoder1.IN1
+a[1] => Decoder0.IN1
+a[2] => Decoder0.IN0
+a[2] => Decoder1.IN0
+seg3[0] <= <GND>
+seg3[1] <= seg3.DB_MAX_OUTPUT_PORT_TYPE
+seg3[2] <= <GND>
+seg3[3] <= seg3.DB_MAX_OUTPUT_PORT_TYPE
+seg3[4] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg3[5] <= <GND>
+seg3[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+seg2[0] <= <GND>
+seg2[1] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+seg2[2] <= <GND>
+seg2[3] <= seg2.DB_MAX_OUTPUT_PORT_TYPE
+seg2[4] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg2[5] <= <GND>
+seg2[6] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Admin/Desktop/S1154007/simulation/qsim
+vhalf_adder
+Z1 !s110 1709689180
+!i10b 1
+!s100 05X?2i68Cn@[=^;T4ZSe42
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4YKL5jT7EbXYUU8[<^DPO0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1709689179
+Z5 8half_adder.vo
+Z6 Fhalf_adder.vo
+!i122 6
+L0 32 234
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1709689180.000000
+Z9 !s107 half_adder.vo|
+Z10 !s90 -work|work|half_adder.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vhalf_adder_vlg_vec_tst
+R1
+!i10b 1
+!s100 0@FXO6GJIafOZW;e5?=9i1
+R2
+IgI`G>TKI[L]fR[if59>Ak2
+R3
+R0
+w1709689178
+8half_adder.vwf.vt
+Fhalf_adder.vwf.vt
+!i122 7
+L0 30 40
+R7
+r1
+!s85 0
+31
+R8
+!s107 half_adder.vwf.vt|
+!s90 -work|work|half_adder.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R1
+!i10b 1
+!s100 055dZ[E]YZ_z?9[94]b@S3
+R2
+ImO5l9`@QEEl9k[][1BdOa2
+R3
+R0
+R4
+R5
+R6
+!i122 6
+L0 267 45
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

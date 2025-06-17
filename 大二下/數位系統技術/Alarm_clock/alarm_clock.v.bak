@@ -1,0 +1,17 @@
+module alarm_clock(clk, rst, hr1, hr0, min1, min0, cnt3, cnt2, cnt1, cnt0, led_on);
+
+	input clk, rst;
+	
+	input [1:0] hr1;
+	input [3:0] hr0;
+	input [2:0] min1;
+	input [3:0] min0;
+	
+	output [3:0] cnt3, cnt2, cnt1, cnt0;
+	output reg led_on;
+	
+	reg [3:0] dur_cnt;
+	
+	clock m0(clk, rst, cnt3, cnt2, cnt1, cnt0);
+
+endmodule 

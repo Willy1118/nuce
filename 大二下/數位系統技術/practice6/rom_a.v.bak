@@ -1,0 +1,12 @@
+module rom_a(addr, data);
+
+	input [2:0] addr;
+	output reg [6:0] data;
+	
+	always @ (addr) begin
+		case(addr)
+			3'b000 : data = 7'b1111110;
+			
+		endcase
+	end
+endmodule 

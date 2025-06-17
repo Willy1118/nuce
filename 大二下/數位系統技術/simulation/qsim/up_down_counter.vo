@@ -1,0 +1,198 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
+
+// DATE "03/27/2024 10:17:06"
+
+// 
+// Device: Altera 10M50DAF484C7G Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module freq_div (
+	clk,
+	rst,
+	clk_out);
+input 	clk;
+input 	rst;
+output 	clk_out;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \clk_out~output_o ;
+wire \clk~input_o ;
+wire \divider[0]~2_combout ;
+wire \rst~input_o ;
+wire \divider[1]~1_combout ;
+wire \divider[2]~0_combout ;
+wire [2:0] divider;
+
+
+fiftyfivenm_io_obuf \clk_out~output (
+	.i(divider[2]),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\clk_out~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \clk_out~output .bus_hold = "false";
+defparam \clk_out~output .open_drain_output = "false";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \clk~input (
+	.i(clk),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\clk~input_o ));
+// synopsys translate_off
+defparam \clk~input .bus_hold = "false";
+defparam \clk~input .listen_to_nsleep_signal = "false";
+defparam \clk~input .simulate_z_as = "z";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \divider[0]~2 (
+// Equation(s):
+// \divider[0]~2_combout  = !divider[0]
+
+	.dataa(divider[0]),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\divider[0]~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \divider[0]~2 .lut_mask = 16'h5555;
+defparam \divider[0]~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+fiftyfivenm_io_ibuf \rst~input (
+	.i(rst),
+	.ibar(gnd),
+	.nsleep(vcc),
+	.o(\rst~input_o ));
+// synopsys translate_off
+defparam \rst~input .bus_hold = "false";
+defparam \rst~input .listen_to_nsleep_signal = "false";
+defparam \rst~input .simulate_z_as = "z";
+// synopsys translate_on
+
+dffeas \divider[0] (
+	.clk(\clk~input_o ),
+	.d(\divider[0]~2_combout ),
+	.asdata(vcc),
+	.clrn(!\rst~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(divider[0]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \divider[0] .is_wysiwyg = "true";
+defparam \divider[0] .power_up = "low";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \divider[1]~1 (
+// Equation(s):
+// \divider[1]~1_combout  = divider[1] $ (divider[0])
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(divider[1]),
+	.datad(divider[0]),
+	.cin(gnd),
+	.combout(\divider[1]~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \divider[1]~1 .lut_mask = 16'h0FF0;
+defparam \divider[1]~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+dffeas \divider[1] (
+	.clk(\clk~input_o ),
+	.d(\divider[1]~1_combout ),
+	.asdata(vcc),
+	.clrn(!\rst~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(divider[1]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \divider[1] .is_wysiwyg = "true";
+defparam \divider[1] .power_up = "low";
+// synopsys translate_on
+
+fiftyfivenm_lcell_comb \divider[2]~0 (
+// Equation(s):
+// \divider[2]~0_combout  = divider[2] $ (((divider[1] & divider[0])))
+
+	.dataa(gnd),
+	.datab(divider[2]),
+	.datac(divider[1]),
+	.datad(divider[0]),
+	.cin(gnd),
+	.combout(\divider[2]~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \divider[2]~0 .lut_mask = 16'h3CCC;
+defparam \divider[2]~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+dffeas \divider[2] (
+	.clk(\clk~input_o ),
+	.d(\divider[2]~0_combout ),
+	.asdata(vcc),
+	.clrn(!\rst~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(divider[2]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \divider[2] .is_wysiwyg = "true";
+defparam \divider[2] .power_up = "low";
+// synopsys translate_on
+
+assign clk_out = \clk_out~output_o ;
+
+endmodule

@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_TX_Byte_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_TX_Byte_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_TX_Byte_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_TX_Byte_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_TX_Byte_b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_TX_Byte_b[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_TX_Byte_b[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_TX_Byte_b[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_TX_Bit",
+					"strict" : false
+				},
+				{
+					"name" : "i_TX_Byte[0]",
+					"strict" : false
+				},
+				{
+					"name" : "i_TX_Byte[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_TX_Byte[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i_TX_Byte[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i_TX_Byte[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i_TX_Byte[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i_TX_Byte[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i_TX_Byte[7]",
+					"strict" : false
+				},
+				{
+					"name" : "i_rst_b",
+					"strict" : false
+				},
+				{
+					"name" : "i_clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

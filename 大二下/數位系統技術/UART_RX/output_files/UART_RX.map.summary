@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed May 29 11:40:56 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : UART_RX
+Top-level Entity Name : UART_RX_top
+Family : MAX 10
+Total logic elements : 45
+    Total combinational functions : 45
+    Dedicated logic registers : 25
+Total registers : 25
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,230 @@
+|S1154007_q06
+clk => clk.IN2
+rst => _.IN1
+rst => _.IN1
+rst => _.IN1
+rst => _.IN1
+seg4[0] << rom_a:comb_65.port0
+seg4[1] << rom_a:comb_65.port0
+seg4[2] << rom_a:comb_65.port0
+seg4[3] << rom_a:comb_65.port0
+seg4[4] << rom_a:comb_65.port0
+seg4[5] << rom_a:comb_65.port0
+seg4[6] << rom_a:comb_65.port0
+seg3[0] << rom_b:comb_66.port0
+seg3[1] << rom_b:comb_66.port0
+seg3[2] << rom_b:comb_66.port0
+seg3[3] << rom_b:comb_66.port0
+seg3[4] << rom_b:comb_66.port0
+seg3[5] << rom_b:comb_66.port0
+seg3[6] << rom_b:comb_66.port0
+seg2[0] << rom_c:comb_67.port0
+seg2[1] << rom_c:comb_67.port0
+seg2[2] << rom_c:comb_67.port0
+seg2[3] << rom_c:comb_67.port0
+seg2[4] << rom_c:comb_67.port0
+seg2[5] << rom_c:comb_67.port0
+seg2[6] << rom_c:comb_67.port0
+seg1[0] << <GND>
+seg1[1] << <GND>
+seg1[2] << <GND>
+seg1[3] << <GND>
+seg1[4] << <GND>
+seg1[5] << <GND>
+seg1[6] << <GND>
+
+
+|S1154007_q06|freq_div:f0
+clk => divider[0].CLK
+clk => divider[1].CLK
+clk => divider[2].CLK
+clk => divider[3].CLK
+clk => divider[4].CLK
+clk => divider[5].CLK
+clk => divider[6].CLK
+clk => divider[7].CLK
+clk => divider[8].CLK
+clk => divider[9].CLK
+clk => divider[10].CLK
+clk => divider[11].CLK
+clk => divider[12].CLK
+clk => divider[13].CLK
+clk => divider[14].CLK
+clk => divider[15].CLK
+clk => divider[16].CLK
+clk => divider[17].CLK
+clk => divider[18].CLK
+clk => divider[19].CLK
+clk => divider[20].CLK
+clk => divider[21].CLK
+clk => divider[22].CLK
+rst => divider[0].ACLR
+rst => divider[1].ACLR
+rst => divider[2].ACLR
+rst => divider[3].ACLR
+rst => divider[4].ACLR
+rst => divider[5].ACLR
+rst => divider[6].ACLR
+rst => divider[7].ACLR
+rst => divider[8].ACLR
+rst => divider[9].ACLR
+rst => divider[10].ACLR
+rst => divider[11].ACLR
+rst => divider[12].ACLR
+rst => divider[13].ACLR
+rst => divider[14].ACLR
+rst => divider[15].ACLR
+rst => divider[16].ACLR
+rst => divider[17].ACLR
+rst => divider[18].ACLR
+rst => divider[19].ACLR
+rst => divider[20].ACLR
+rst => divider[21].ACLR
+rst => divider[22].ACLR
+clk_out <= divider[22].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|S1154007_q06|freq_div:f1
+clk => divider[0].CLK
+clk => divider[1].CLK
+clk => divider[2].CLK
+clk => divider[3].CLK
+clk => divider[4].CLK
+clk => divider[5].CLK
+clk => divider[6].CLK
+clk => divider[7].CLK
+clk => divider[8].CLK
+clk => divider[9].CLK
+clk => divider[10].CLK
+clk => divider[11].CLK
+clk => divider[12].CLK
+clk => divider[13].CLK
+clk => divider[14].CLK
+clk => divider[15].CLK
+clk => divider[16].CLK
+clk => divider[17].CLK
+clk => divider[18].CLK
+clk => divider[19].CLK
+clk => divider[20].CLK
+clk => divider[21].CLK
+clk => divider[22].CLK
+clk => divider[23].CLK
+rst => divider[0].ACLR
+rst => divider[1].ACLR
+rst => divider[2].ACLR
+rst => divider[3].ACLR
+rst => divider[4].ACLR
+rst => divider[5].ACLR
+rst => divider[6].ACLR
+rst => divider[7].ACLR
+rst => divider[8].ACLR
+rst => divider[9].ACLR
+rst => divider[10].ACLR
+rst => divider[11].ACLR
+rst => divider[12].ACLR
+rst => divider[13].ACLR
+rst => divider[14].ACLR
+rst => divider[15].ACLR
+rst => divider[16].ACLR
+rst => divider[17].ACLR
+rst => divider[18].ACLR
+rst => divider[19].ACLR
+rst => divider[20].ACLR
+rst => divider[21].ACLR
+rst => divider[22].ACLR
+rst => divider[23].ACLR
+clk_out <= divider[23].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|S1154007_q06|updn_count:u0
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+clk => count[4]~reg0.CLK
+rst => count[0]~reg0.ACLR
+rst => count[1]~reg0.ACLR
+rst => count[2]~reg0.ACLR
+rst => count[3]~reg0.ACLR
+rst => count[4]~reg0.ACLR
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|S1154007_q06|updn_count:u1
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+clk => count[4]~reg0.CLK
+rst => count[0]~reg0.ACLR
+rst => count[1]~reg0.ACLR
+rst => count[2]~reg0.ACLR
+rst => count[3]~reg0.ACLR
+rst => count[4]~reg0.ACLR
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+updn => count.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|S1154007_q06|rom_a:comb_65
+addr[0] => Decoder0.IN3
+addr[1] => Decoder0.IN2
+addr[2] => Decoder0.IN1
+addr[3] => Decoder0.IN0
+data[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= <VCC>
+data[2] <= <VCC>
+data[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data[6] <= <VCC>
+
+
+|S1154007_q06|rom_b:comb_66
+addr[0] => Equal0.IN7
+addr[0] => Equal1.IN7
+addr[1] => Equal0.IN6
+addr[1] => Equal1.IN6
+addr[2] => Equal0.IN5
+addr[2] => Equal1.IN5
+addr[3] => Equal0.IN4
+addr[3] => Equal1.IN4
+data[0] <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= <VCC>
+data[2] <= <VCC>
+data[3] <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= <VCC>
+data[5] <= <VCC>
+data[6] <= <VCC>
+
+
+|S1154007_q06|rom_c:comb_67
+addr[0] => Decoder0.IN3
+addr[1] => Decoder0.IN2
+addr[2] => Decoder0.IN1
+addr[3] => Decoder0.IN0
+data[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= <VCC>
+data[5] <= <VCC>
+data[6] <= <VCC>
+
+

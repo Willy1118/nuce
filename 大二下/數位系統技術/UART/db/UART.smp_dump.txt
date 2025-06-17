@@ -1,0 +1,6 @@
+
+State Machine - |UART_TX_top|UART_TX:m1|r_SM_Main
+Name r_SM_Main.TX_START_ST r_SM_Main.TX_STOP_ST r_SM_Main.TX_DATA_ST 
+r_SM_Main.TX_START_ST 0 0 0 
+r_SM_Main.TX_DATA_ST 1 0 1 
+r_SM_Main.TX_STOP_ST 1 1 0 

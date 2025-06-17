@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'alarm_clock:m0|led_on'
+Slack : -2.606
+TNS   : -33.649
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.247
+TNS   : -39.168
+
+Type  : Slow 1200mV 85C Model Hold 'alarm_clock:m0|led_on'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -39.478
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'alarm_clock:m0|led_on'
+Slack : -1.403
+TNS   : -28.060
+
+Type  : Slow 1200mV 0C Model Setup 'alarm_clock:m0|led_on'
+Slack : -2.307
+TNS   : -28.971
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -1.910
+TNS   : -32.752
+
+Type  : Slow 1200mV 0C Model Hold 'alarm_clock:m0|led_on'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.327
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -39.478
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'alarm_clock:m0|led_on'
+Slack : -1.403
+TNS   : -28.060
+
+Type  : Fast 1200mV 0C Model Setup 'alarm_clock:m0|led_on'
+Slack : -0.524
+TNS   : -5.309
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.300
+TNS   : -2.278
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'alarm_clock:m0|led_on'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -29.806
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'alarm_clock:m0|led_on'
+Slack : -1.000
+TNS   : -20.000
+
+------------------------------------------------------------

@@ -1,0 +1,70 @@
+|UART_TX_top
+i_clk => i_clk.IN1
+i_rst_b => rst.IN2
+i_TX_Byte[0] => i_TX_Byte[0].IN1
+i_TX_Byte[1] => i_TX_Byte[1].IN1
+i_TX_Byte[2] => i_TX_Byte[2].IN1
+i_TX_Byte[3] => i_TX_Byte[3].IN1
+i_TX_Byte[4] => i_TX_Byte[4].IN1
+i_TX_Byte[5] => i_TX_Byte[5].IN1
+i_TX_Byte[6] => i_TX_Byte[6].IN1
+i_TX_Byte[7] => i_TX_Byte[7].IN1
+o_TX_Byte_b[0] << i_TX_Byte[0].DB_MAX_OUTPUT_PORT_TYPE
+o_TX_Byte_b[1] << i_TX_Byte[1].DB_MAX_OUTPUT_PORT_TYPE
+o_TX_Byte_b[2] << i_TX_Byte[2].DB_MAX_OUTPUT_PORT_TYPE
+o_TX_Byte_b[3] << i_TX_Byte[3].DB_MAX_OUTPUT_PORT_TYPE
+o_TX_Byte_b[4] << i_TX_Byte[4].DB_MAX_OUTPUT_PORT_TYPE
+o_TX_Byte_b[5] << i_TX_Byte[5].DB_MAX_OUTPUT_PORT_TYPE
+o_TX_Byte_b[6] << i_TX_Byte[6].DB_MAX_OUTPUT_PORT_TYPE
+o_TX_Byte_b[7] << i_TX_Byte[7].DB_MAX_OUTPUT_PORT_TYPE
+o_TX_Bit << UART_TX:m1.port3
+
+
+|UART_TX_top|freq_div_n:m0
+clk => clk_pos.CLK
+clk => cnt_pos[0].CLK
+clk => cnt_pos[1].CLK
+clk => cnt_pos[2].CLK
+clk => cnt_pos[3].CLK
+clk => cnt_pos[4].CLK
+clk => cnt_pos[5].CLK
+clk => cnt_pos[6].CLK
+clk => cnt_pos[7].CLK
+clk => cnt_pos[8].CLK
+clk => cnt_pos[9].CLK
+rst => clk_pos.ACLR
+rst => cnt_pos[0].ACLR
+rst => cnt_pos[1].ACLR
+rst => cnt_pos[2].ACLR
+rst => cnt_pos[3].ACLR
+rst => cnt_pos[4].ACLR
+rst => cnt_pos[5].ACLR
+rst => cnt_pos[6].ACLR
+rst => cnt_pos[7].ACLR
+rst => cnt_pos[8].ACLR
+rst => cnt_pos[9].ACLR
+clk_out <= clk_pos.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UART_TX_top|UART_TX:m1
+i_clk => r_TX_Bit.CLK
+i_clk => r_Byte_Idx[0].CLK
+i_clk => r_Byte_Idx[1].CLK
+i_clk => r_Byte_Idx[2].CLK
+i_clk => r_SM_Main~4.DATAIN
+i_rst => r_TX_Bit.PRESET
+i_rst => r_Byte_Idx[0].ACLR
+i_rst => r_Byte_Idx[1].ACLR
+i_rst => r_Byte_Idx[2].ACLR
+i_rst => r_SM_Main~6.DATAIN
+i_TX_Byte[0] => Mux0.IN7
+i_TX_Byte[1] => Mux0.IN6
+i_TX_Byte[2] => Mux0.IN5
+i_TX_Byte[3] => Mux0.IN4
+i_TX_Byte[4] => Mux0.IN3
+i_TX_Byte[5] => Mux0.IN2
+i_TX_Byte[6] => Mux0.IN1
+i_TX_Byte[7] => Mux0.IN0
+o_TX_Bit <= r_TX_Bit.DB_MAX_OUTPUT_PORT_TYPE
+
+

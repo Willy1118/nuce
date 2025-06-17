@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'freq_div:f1|divider[23]'
+Slack : -3.399
+TNS   : -12.889
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.098
+TNS   : -30.942
+
+Type  : Slow 1200mV 85C Model Setup 'updn_count:u1|count[0]'
+Slack : -1.980
+TNS   : -14.438
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'freq_div:f1|divider[23]'
+Slack : 0.546
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'updn_count:u1|count[0]'
+Slack : 1.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -36.672
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'freq_div:f1|divider[23]'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'updn_count:u1|count[0]'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'freq_div:f1|divider[23]'
+Slack : -2.949
+TNS   : -11.161
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -1.781
+TNS   : -25.665
+
+Type  : Slow 1200mV 0C Model Setup 'updn_count:u1|count[0]'
+Slack : -1.779
+TNS   : -12.820
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'freq_div:f1|divider[23]'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'updn_count:u1|count[0]'
+Slack : 0.958
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -36.672
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'freq_div:f1|divider[23]'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'updn_count:u1|count[0]'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'freq_div:f1|divider[23]'
+Slack : -1.369
+TNS   : -4.630
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.760
+TNS   : -1.419
+
+Type  : Fast 1200mV 0C Model Setup 'updn_count:u1|count[0]'
+Slack : -0.707
+TNS   : -4.543
+
+Type  : Fast 1200mV 0C Model Hold 'freq_div:f1|divider[23]'
+Slack : -0.036
+TNS   : -0.036
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'updn_count:u1|count[0]'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -27.914
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'freq_div:f1|divider[23]'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'updn_count:u1|count[0]'
+Slack : 0.387
+TNS   : 0.000
+
+------------------------------------------------------------

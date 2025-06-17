@@ -1,0 +1,20 @@
+module down_count(clk_num_cnt, rst, num_cnt);
+
+	parameter TIME = 4'd9;
+	
+	input clk_num_cnt, rst;
+	output reg [3:0] num_cnt;
+	
+	always @(posedge clk_num_cnt or posedge rst) begin
+		if(rst) begin
+			num_cnt = TIME;
+		end
+		else begin
+			num_cnt = num_cnt - 1'b1;
+			if(num_cnt == 4'b0011) begin
+				num_cnt = TIME;
+			end
+		end
+	end
+
+endmodule 
