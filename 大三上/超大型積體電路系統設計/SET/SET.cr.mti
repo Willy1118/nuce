@@ -1,0 +1,15 @@
+C:/willy/Desktop/SET/SET.v {1 {vlog -work work -stats=none C:/willy/Desktop/SET/SET.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SET
+
+Top level modules:
+	SET
+
+} {} {}} C:/willy/Desktop/SET/testfixture.v {1 {vlog -work work -stats=none C:/willy/Desktop/SET/testfixture.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testfixture1
+
+Top level modules:
+	testfixture1
+
+} {} {}}

@@ -1,0 +1,15 @@
+C:/willy/Desktop/trapezoid/trapezoid.v {1 {vlog -work work -stats=none C:/willy/Desktop/trapezoid/trapezoid.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module trapezoid
+
+Top level modules:
+	trapezoid
+
+} {} {}} C:/willy/Desktop/trapezoid/testfixture.v {1 {vlog -work work -stats=none C:/willy/Desktop/trapezoid/testfixture.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}

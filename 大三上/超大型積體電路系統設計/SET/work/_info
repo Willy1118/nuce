@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/willy/Desktop/trapezoid/quartus/simulation/modelsim
+vSET
+!s110 1733989961
+!i10b 1
+!s100 nEQG5P]SWb34623XKgb4`0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@>AQUgK7g^kD53eVRCP7I1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/willy/Desktop/SET
+w1733989935
+8SET.v
+FSET.v
+!i122 23
+L0 1 120
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1733989961.000000
+!s107 SET.v|
+!s90 -reportprogress|300|SET.v|
+!i113 1
+Z4 tCvgOpt 0
+n@s@e@t
+vtestfixture1
+!s110 1733989978
+!i10b 1
+!s100 ]V`9X5VlkK6JZYPchmZ<33
+R0
+IcRmlIA=c:S0z95II47>HP0
+R1
+R2
+w1733988953
+8testfixture.v
+Ftestfixture.v
+!i122 27
+L0 7 165
+R3
+r1
+!s85 0
+31
+!s108 1733989978.000000
+!s107 testfixture.v|
+!s90 -reportprogress|300|testfixture.v|+define+MD4|
+!i113 1
+!s92 +define+MD4
+R4

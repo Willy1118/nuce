@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/21.1
+vavg
+Z0 !s110 1729760230
+!i10b 1
+!s100 BdiFYHZg]WN9V8SGTeEg]2
+IFJ`[Ha`bM2X0dD:^fMMPL1
+Z1 dC:/willy/Desktop/average/avg
+w1729760196
+8C:\willy\Desktop\average\avg\avg.v
+FC:\willy\Desktop\average\avg\avg.v
+!i122 12
+L0 3 66
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2021.1;73
+r1
+!s85 0
+31
+Z4 !s108 1729760230.000000
+!s107 C:\willy\Desktop\average\avg\avg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\willy\Desktop\average\avg\avg.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtest
+R0
+!i10b 1
+!s100 zPUeT?FVX0M?k`0IFS=Tz1
+I;UBhG6g1=E3V6:UZc3E@C1
+R1
+w1725008566
+8C:/willy/Desktop/average/avg/test.v
+FC:/willy/Desktop/average/avg/test.v
+!i122 13
+L0 12 77
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/willy/Desktop/average/avg/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/willy/Desktop/average/avg/test.v|
+!i113 1
+R5
+R6

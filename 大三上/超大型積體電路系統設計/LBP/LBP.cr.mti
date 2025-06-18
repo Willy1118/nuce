@@ -1,0 +1,16 @@
+C:/willy/Desktop/LBP/LBP.v {1 {vlog -work work -stats=none C:/willy/Desktop/LBP/LBP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LBP
+
+Top level modules:
+	LBP
+
+} {} {}} C:/willy/Desktop/LBP/testfixture.v {1 {vlog -work work -stats=none C:/willy/Desktop/LBP/testfixture.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testfixture
+-- Compiling module lbp_mem
+
+Top level modules:
+	testfixture
+
+} {} {}}

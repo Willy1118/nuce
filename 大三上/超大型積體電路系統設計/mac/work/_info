@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vmac
+Z0 !s110 1730974650
+!i10b 1
+!s100 ggK>2zA9^_JfEUl_U;IN@0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IK:VG9hcU:b=jAPe2Am5nd1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/willy/Desktop/mac
+w1730974410
+8C:/willy/Desktop/mac/mac.v
+FC:/willy/Desktop/mac/mac.v
+!i122 0
+L0 1 258
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1730974650.000000
+!s107 C:/willy/Desktop/mac/mac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/willy/Desktop/mac/mac.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vmac_sim
+R0
+!i10b 1
+!s100 6Z4ClFhmF@=lH2Q=0z6EP2
+R1
+ISPIMMHe<ZJF29_1PVi1bd2
+R2
+R3
+w1725464640
+8C:/willy/Desktop/mac/testfixture.v
+FC:/willy/Desktop/mac/testfixture.v
+!i122 1
+L0 36 344
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/willy/Desktop/mac/testfixture.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/willy/Desktop/mac/testfixture.v|
+!i113 1
+R6
+R7

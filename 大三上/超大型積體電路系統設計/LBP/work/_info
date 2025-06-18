@@ -1,0 +1,81 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/willy/Desktop/lcd_ctrl_v2
+vLBP
+Z0 !s110 1736660262
+!i10b 1
+!s100 6:T0aUC=U5U:_5JYX5iic1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJDRAdgXF@_M80<1NKd=Bg0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/willy/Desktop/LBP
+w1736660226
+8C:/willy/Desktop/LBP/LBP.v
+FC:/willy/Desktop/LBP/LBP.v
+!i122 50
+L0 1 168
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1736660262.000000
+!s107 C:/willy/Desktop/LBP/LBP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/willy/Desktop/LBP/LBP.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@l@b@p
+vlbp_mem
+R0
+!i10b 1
+!s100 fij^Df3iB><X<gaAmX8ME0
+R1
+I1M>V@MiB4HailM<@DJ<zS0
+R2
+R3
+Z8 w1735703849
+Z9 8C:/willy/Desktop/LBP/testfixture.v
+Z10 FC:/willy/Desktop/LBP/testfixture.v
+!i122 51
+L0 136 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/willy/Desktop/LBP/testfixture.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/willy/Desktop/LBP/testfixture.v|
+!i113 1
+R6
+R7
+vtestfixture
+R0
+!i10b 1
+!s100 >eKUiZHFKIna`_6^ZA_h90
+R1
+I0A:iMJe^TIJGacblQ3<ZT0
+R2
+R3
+R8
+R9
+R10
+!i122 51
+L0 10 124
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 C:/willy/Desktop/LBP/testfixture.v|
+R11
+!i113 1
+R6
+R7

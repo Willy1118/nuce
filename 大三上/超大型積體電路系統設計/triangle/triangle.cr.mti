@@ -1,0 +1,15 @@
+C:/willy/Desktop/triangle/triangle.v {1 {vlog -work work -stats=none {C:\willy\Desktop\triangle\triangle.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module triangle
+
+Top level modules:
+	triangle
+
+} {} {}} C:/willy/Desktop/triangle/testfixture.v {1 {vlog -work work -stats=none C:/willy/Desktop/triangle/testfixture.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}

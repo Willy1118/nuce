@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/willy/Desktop/mac/simulation/modelsim
+vCS
+!s110 1731574453
+!i10b 1
+!s100 =B@WoWlbin?CclEN?E8ih0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9eO[I@P?9XK52XLaQfPS31
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/willy/Desktop/CS
+w1731574445
+8C:\willy\Desktop\CS\CS.v
+FC:\willy\Desktop\CS\CS.v
+!i122 17
+L0 2 70
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1731574452.000000
+!s107 C:\willy\Desktop\CS\CS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\willy\Desktop\CS\CS.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@c@s
+vtest
+!s110 1731574452
+!i10b 1
+!s100 :7L=^`f:^0m:@g2ie^DFz1
+R0
+IW`7[gTBMaL2FeJBTHSfC:2
+R1
+R2
+w1725599648
+8C:/willy/Desktop/CS/testfixture.v
+FC:/willy/Desktop/CS/testfixture.v
+!i122 16
+L0 7 121
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/willy/Desktop/CS/testfixture.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/willy/Desktop/CS/testfixture.v|
+!i113 1
+R5
+R6

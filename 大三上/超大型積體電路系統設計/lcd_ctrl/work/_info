@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/willy/Desktop/SET/quartus/simulation/modelsim
+vIRB
+Z0 !s110 1734596596
+!i10b 1
+!s100 TCXAO:ZHMXKcGc3FYfG=[0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iz4_g>7ILRGZGZamT^Aj:i1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/willy/Desktop/lcd_ctrl
+Z4 w1734596134
+8IRB.v
+FIRB.v
+!i122 11
+L0 56 409
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1734596596.000000
+!s107 IROM.v|IRB.v|testfixture.v|
+Z7 !s90 -reportprogress|300|testfixture.v|+define+tb2|
+!i113 1
+Z8 !s92 +define+tb2
+Z9 tCvgOpt 0
+n@i@r@b
+virom
+R0
+!i10b 1
+!s100 8[3:AMak6Ihm>514WckOz0
+R1
+I=CmDUP5Ka?=Lo;5UfN>9d0
+R2
+R3
+R4
+Z10 8IROM.v
+Z11 FIROM.v
+!i122 11
+L0 84 273
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 IROM.v|IRB.v|testfixture.v|
+R7
+!i113 1
+R8
+R9
+vIROM
+R0
+!i10b 1
+!s100 0^`4EAa1eV[7>GZmG;V]M3
+R1
+IB:_6dQ3P[`ZPmAgn6jGUj3
+R2
+R3
+R4
+R10
+R11
+!i122 11
+L0 65 17
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 1
+R8
+R9
+n@i@r@o@m
+vlcd_ctrl
+R0
+!i10b 1
+!s100 g]KJiC45SNNGb4<:YKRW[3
+R1
+IJJAGE=?G_1dGQOTDS3=WX1
+R2
+R3
+w1734594095
+8lcd_ctrl.v
+Flcd_ctrl.v
+!i122 10
+L0 3 188
+R5
+r1
+!s85 0
+31
+R6
+!s107 lcd_ctrl.v|
+!s90 -reportprogress|300|lcd_ctrl.v|
+!i113 1
+R9
+vtest
+R0
+!i10b 1
+!s100 UO5GLNG1>BFEXF8mb0j<e2
+R1
+Igg:UVhbZ6=^]UcMh6dF340
+R2
+R3
+R4
+8testfixture.v
+Ftestfixture.v
+!i122 11
+L0 20 134
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 1
+R8
+R9

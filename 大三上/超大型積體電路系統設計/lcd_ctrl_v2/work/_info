@@ -1,0 +1,56 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/willy/Desktop/lcd_ctrl/quartus/simulation/modelsim
+vlcd_ctrl
+!s110 1735211293
+!i10b 1
+!s100 =>8zUM3?bd88GY5ml<jKE2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDHb4=<=]OzKD_I[?zbeaR0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/willy/Desktop/lcd_ctrl_v2
+w1735211275
+8lcd_ctrl.v
+Flcd_ctrl.v
+!i122 130
+L0 4 283
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1735211293.000000
+!s107 lcd_ctrl.v|
+!s90 -reportprogress|300|lcd_ctrl.v|
+!i113 1
+Z4 tCvgOpt 0
+vtest
+!s110 1735212287
+!i10b 1
+!s100 T72GT`QLTlI>3gN55kKPR0
+R0
+ITj[?I@j^@I39e43HPz]V^1
+R1
+R2
+w1735203631
+8testfixture.v
+Ftestfixture.v
+!i122 133
+L0 20 129
+R3
+r1
+!s85 0
+31
+!s108 1735212287.000000
+!s107 testfixture.v|
+!s90 -reportprogress|300|testfixture.v|+define+tb1|
+!i113 1
+!s92 +define+tb1
+R4
